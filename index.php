@@ -108,7 +108,7 @@
                         <li><a href="index-3.html">Solutions</a>
                             <ul>
                                 <li><a href="#">Data</a></li>
-                                <li><a href="#">GRC</a></li>
+                                <li><a href="#">Governance and Compliance</a></li>
                                 <li><a href="#">Financial Risk</a></li>
                                 <li><a href="#">Cloud</a></li>
                             </ul>
