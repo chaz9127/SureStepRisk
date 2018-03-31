@@ -90,30 +90,30 @@
         <div class="row">
             <div class="grid_12">
                 <h1>
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images/new/logo_big.png" alt="maturity consulting company">
                     </a>
                 </h1>
-                <nav>
+               <nav>
                     <ul class="sf-menu">
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="index-1.html">About us</a></li>
-                        <li><a href="index-2.html">Services</a>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a class="current" href="#">Solutions</a>
                             <ul>
-                                <li><a href="#">Implementation</a></li>
-                                <li><a href="#">SEO Marketing</a>
-                                </li>
+                                <li><a href="solutions/data.html">Data</a></li>
+                                <li><a href="solutions/grc.html">GRC</a></li>
+                                <li><a href="solutions/financial-risk.html">Financial Risk</a></li>
+                                <li><a href="solutions/cloud.html">Cloud</a></li>
                            </ul>
                         </li>
-                        <li><a href="index-3.html">Solutions</a>
+                        <li><a href="#">Services</a>
                             <ul>
-                                <li><a href="#">Data</a></li>
-                                <li><a href="#">GRC</a></li>
-                                <li><a href="#">Financial Risk</a></li>
-                                <li><a href="#">Cloud</a></li>
-                            </ul>
+                                <li><a href="services/manages-services.html">Manages Services</a></li>
+                                <li><a href="services/implementation.html">Implementation</a></li>
+                                <li><a href="services/training.html">Training</a></li>
+                           </ul>
                         </li>
-                        <li><a href="index-4.html">Contacts</a></li>
+                        <li><a href="about-us/about-us.html">About us</a></li>
+                        <li><a href="index-4.html">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
