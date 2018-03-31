@@ -113,7 +113,7 @@
                            </ul>
                         </li>
                         <li><a href="about-us/about-us.html">About us</a></li>
-                        <li><a href="index-4.html">Contact us</a></li>
+                        <li><a href="contact-us/contact-us.html">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
