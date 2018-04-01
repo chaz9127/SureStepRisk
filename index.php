@@ -107,7 +107,7 @@
                         </li>
                         <li><a href="#">Services</a>
                             <ul>
-                                <li><a href="services/manages-services.html">Manages Services</a></li>
+                                <li><a href="services/manages-services.html">Managed Services</a></li>
                                 <li><a href="services/implementation.html">Implementation</a></li>
                                 <li><a href="services/training.html">Training</a></li>
                            </ul>
@@ -123,20 +123,26 @@
                 <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
                     <div data-src="images/slide-1.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>we invest our mind &amp; resources</span>
-                            <span>to develop <br> high <br> technology</span>
+                            <span>sophisticated data solutions &amp; services</span>
+                            <span>to increase your <br> business <br> performance</span>
                         </div>
                     </div>
                     <div data-src="images/slide-2.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>you`ll be satisfied by the high quality</span>
-                            <span>of our goods &amp; <br> services</span>
+                            <span>Governance, Risk </span>
+                            <span>&amp; and Compliance <br> Solutions</span>
                         </div>
                     </div>
                     <div data-src="images/slide-3.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>We create modern &amp; effective programs</span>
-                            <span>for your <br>administrative <br> staff</span>
+                            <span>Financial Risk Solutions</span>
+                            <span>Credit, Portfolio <br> &amp; liquidity risk management</span>
+                        </div>
+                    </div>
+                    <div data-src="images/slide-3.jpg">
+                        <div class="camera_caption fadeIn">
+                            <span>High performance Cloud &amp; infrastructure programs</span>
+                            <span>Unlock the potential<br>of your enterprise</span>
                         </div>
                     </div>
                 </div>
