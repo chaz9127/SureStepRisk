@@ -123,14 +123,14 @@
                 <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
                     <div data-src="images/slide-1.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>sophisticated data solutions &amp; services</span>
-                            <span>to increase your <br> business <br> performance</span>
+                            <span>Elite data solutions &amp; services</span>
+                            <span>increase your <br> business <br> performance</span>
                         </div>
                     </div>
                     <div data-src="images/slide-2.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>Governance, Risk </span>
-                            <span>&amp; and Compliance <br> Solutions</span>
+                            <span>GRC Solutions</span>
+                            <span><br>Regulatory &amp; Operational risk management</span>
                         </div>
                     </div>
                     <div data-src="images/slide-3.jpg">
@@ -141,7 +141,7 @@
                     </div>
                     <div data-src="images/slide-3.jpg">
                         <div class="camera_caption fadeIn">
-                            <span>High performance Cloud &amp; infrastructure programs</span>
+                            <span>Cloud &amp; virtual datacenter solutions</span>
                             <span>Unlock the potential<br>of your enterprise</span>
                         </div>
                     </div>
@@ -152,28 +152,28 @@
             <div class="grid_3">
                 <a href="#" class="box-1 bg-box-1">
                     <div class="maxheight inside">
-                    budget planning &amp; forecasting
+                    Cloud Solutions &amp; Application management
                     </div>
                 </a>
             </div>
             <div class="grid_3">
                 <a href="#" class="box-1 bg-box-2">
                     <div class="maxheight inside">
-                    marketing development services
+                    Governance, risk & compliance solutions
                     </div>
                 </a>
             </div>
             <div class="grid_3">
                 <a href="#" class="box-1 bg-box-3">
                     <div class="maxheight inside">
-                    financial management services
+                    financial risk management tools
                     </div>
                 </a>
             </div>
             <div class="grid_3">
                 <a href="#" class="box-1 bg-box-4">
                     <div class="maxheight inside">
-                    technical &amp; customer Support
+                    powerful, turnkey data solutions
                     </div>
                 </a>
             </div>
