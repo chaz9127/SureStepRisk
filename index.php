@@ -133,13 +133,13 @@
                             <span><br>Regulatory &amp; Operational risk management</span>
                         </div>
                     </div>
-                    <div data-src="images/slide-3.jpg">
+                    <div data-src="images/slide-4.jpg">
                         <div class="camera_caption fadeIn">
                             <span>Financial Risk Solutions</span>
                             <span>Credit, Portfolio <br> &amp; liquidity risk management</span>
                         </div>
                     </div>
-                    <div data-src="images/slide-4.jpg">
+                    <div data-src="images/slide-3.jpg">
                         <div class="camera_caption fadeIn">
                             <span>Cloud &amp; virtual datacenter solutions</span>
                             <span>Unlock the potential<br>of your enterprise</span>
