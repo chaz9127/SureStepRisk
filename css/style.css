@@ -292,15 +292,15 @@ a.box-1.bg-box-4:hover .inside *, .box-8:hover .bg-box-4 + div * { color: #ca664
 .content { background: #ffffff url(../images/bg-9.gif) 0 -272px repeat-x; padding-top: 20px; padding-bottom: 2px;}
 .main-content {background: #ffffff url(../images/bg-9.gif) 0 0 repeat-x;}
 .row-1 .bg-5 { 
-	padding-left: 36px;
+	padding: 0px 36px;
 	-webkit-box-shadow: 1px 1px 1px 0px #d2deee;
 	-moz-box-shadow: 1px 1px 1px 0px #d2deee;
 	box-shadow: 1px 1px 1px 0px #d2deee;
 }
 .row-1 .bg-5 > div:first-child, .row-1 .bg-5 > div:first-child + div { padding: 31px 0 0 0px;}
 .row-1 .bg-5 > div:first-child { width: 296px; margin-right: 24px;}
-.row-1 .bg-5 > div:first-child + div { width: 320px;}
-.row-1 .bg-5:hover .text-1, .row-1 .bg-5:hover .text-2 { color: #97adcc;} 
+.row-1 .bg-5 > div:first-child + div { width: calc(100% - 330px);}
+/*.row-1 .bg-5:hover .text-1, .row-1 .bg-5:hover .text-2 { color: #97adcc;} */
 .row-1 .bg-5 { display: block;}
 .bg-1 h2 { color: #ffffff;}
 
@@ -538,4 +538,34 @@ footer .row > div { float: right;}
 }
 @media only screen and (max-width: 320px) {
 
+}
+
+/* CUSTOM */
+.text-center {
+	text-align: center;
+}
+
+.count-down .count-down-header-body.rail-padding {
+	padding: 30px 0px !important;
+}
+
+.count-down .count-down-header-body {
+	width: 330px;
+}
+
+.count-down-header-text {
+	font-size: 24px;
+}
+
+.count-down-header-text h2 {
+	font-size: 32px;
+    font-weight: bold;
+}
+
+.count-down-header-text span {
+	font-size: 32px;
+}
+
+.count-down-time {
+	font-weight: bold;
 }

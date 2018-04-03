@@ -27,6 +27,8 @@
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/x.y.z/moment.min.js"></script>
+    <script src="js/countdown.js"></script>
 
      
     <script>
@@ -150,6 +152,7 @@
         </div>
         <div class="row row-1">
             <div class="grid_3">
+<<<<<<< HEAD
                 <a href="#" class="box-1 bg-box-4">
                     <div class="maxheight inside">
                     powerful, turnkey data solutions
@@ -158,26 +161,39 @@
             </div>
             <div class="grid_3">
                 <a href="#" class="box-1 bg-box-1">
+=======
+                <a href="solutions/data.html" class="box-1 bg-box-1">
+>>>>>>> 430a684cd093bef2c5106fecff39ebc986cd2ac9
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-2">
+                <a href="solutions/grc.html" class="box-1 bg-box-2">
                     <div class="maxheight inside">
                     Governance, risk & compliance solutions
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-3">
+                <a href="solutions/financial-risk.html" class="box-1 bg-box-3">
                     <div class="maxheight inside">
                     financial risk management tools
                     </div>
                 </a>
             </div>
+<<<<<<< HEAD
 
+=======
+            <div class="grid_3">
+                <a href="solutions/data.html" class="box-1 bg-box-4">
+                    <div class="maxheight inside">
+                    powerful, turnkey data solutions
+                    </div>
+                </a>
+            </div>
+>>>>>>> 430a684cd093bef2c5106fecff39ebc986cd2ac9
         </div>
     </div>
 </header>
@@ -186,17 +202,20 @@
 <section class="content main-content">
     <div class="container_12">
         <div class="row row-1">
-            <div class="grid_12">
+            <div class="grid_12 count-down">
                 <a href="#" class="bg-5 clearfix">
-                    <div class="fleft">
-                        <div class="text-1">we will teach you how to implement</div>
+                    <div class="fleft count-down-header-body rail-padding">
+                        <div class="text-1">GDPR is almost here!</div>
                     </div>
-                    <div class="fleft">
-                        <div class="text-2">
-                            many different approaches to internet marketing
+                    <div class="fright text-center rail-padding">
+                        <div class="text-2 count-down-header-text">
+                            <h2>Get Compliant today!</h2>
+                            <span>
+                                <span class="count-down-time" id="days">00</span>d:<span class="count-down-time" id="hours">00</span>h:<span class="count-down-time" id="minutes">00</span>m:<span class="count-down-time" id="seconds">00</span>s
+                            </span>
                         </div>
                     </div>
-                    <div class="fright"><img class="wrapper" src="images/page-1_img-1.jpg" alt=""></div>
+                    
                 </a>
             </div>
         </div>
@@ -205,7 +224,7 @@
                 <div class="bg-box-1 img-ind"><img src="images/page-1_img-2.png" alt="" ></div>
                 <div class="box-1 bg-box-1">
                     <div class="inside">
-                        <div><h2>employment &amp; skills</h2></div>
+                        <div><h2>Managed Services</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -222,7 +241,7 @@
                 <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
-                        <div><h2>investment solutions</h2></div>
+                        <div><h2>Customized Implementation</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -292,7 +311,7 @@
                 <div class="bg-box-3 img-ind"><img src="images/page-1_img-5.png" alt="" ></div>
                 <div class="box-1 bg-box-3">
                     <div class="inside">
-                        <div><h2>taxes &amp; payroll</h2></div>
+                        <div><h2>Training</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -301,9 +320,9 @@
                 <div class="grid_inside">
                     <div class="grid_4 bg-box-5 box-1">
                         <div class="inside">
-                            <h2>starting up</h2>
+                            <h2>Partners</h2>
                             <div><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis. </strong></div>
-                            <a href="#" class="btn">read more</a>
+                            <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
                     <div class="grid_3 box-1 bg-box-6">
