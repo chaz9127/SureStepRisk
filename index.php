@@ -209,7 +209,7 @@
                 <div class="bg-box-1 img-ind"><img src="images/page-1_img-2.png" alt="" ></div>
                 <div class="box-1 bg-box-1">
                     <div class="inside">
-                        <div><h2>employment &amp; skills</h2></div>
+                        <div><h2>Managed Services</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                 <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
-                        <div><h2>investment solutions</h2></div>
+                        <div><h2>Customized Implementation</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                 <div class="bg-box-3 img-ind"><img src="images/page-1_img-5.png" alt="" ></div>
                 <div class="box-1 bg-box-3">
                     <div class="inside">
-                        <div><h2>taxes &amp; payroll</h2></div>
+                        <div><h2>Training</h2></div>
                         <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
                     </div>
                 </div>
@@ -305,9 +305,9 @@
                 <div class="grid_inside">
                     <div class="grid_4 bg-box-5 box-1">
                         <div class="inside">
-                            <h2>starting up</h2>
+                            <h2>Partners</h2>
                             <div><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis. </strong></div>
-                            <a href="#" class="btn">read more</a>
+                            <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
                     <div class="grid_3 box-1 bg-box-6">
