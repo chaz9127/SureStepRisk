@@ -150,6 +150,13 @@
         </div>
         <div class="row row-1">
             <div class="grid_3">
+                <a href="#" class="box-1 bg-box-4">
+                    <div class="maxheight inside">
+                    powerful, turnkey data solutions
+                    </div>
+                </a>
+            </div>
+            <div class="grid_3">
                 <a href="#" class="box-1 bg-box-1">
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
@@ -170,13 +177,7 @@
                     </div>
                 </a>
             </div>
-            <div class="grid_3">
-                <a href="#" class="box-1 bg-box-4">
-                    <div class="maxheight inside">
-                    powerful, turnkey data solutions
-                    </div>
-                </a>
-            </div>
+
         </div>
     </div>
 </header>
