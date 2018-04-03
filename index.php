@@ -152,18 +152,14 @@
         </div>
         <div class="row row-1">
             <div class="grid_3">
-<<<<<<< HEAD
-                <a href="#" class="box-1 bg-box-4">
+                <a href="solutions/data.html" class="box-1 bg-box-4">
                     <div class="maxheight inside">
                     powerful, turnkey data solutions
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-1">
-=======
                 <a href="solutions/data.html" class="box-1 bg-box-1">
->>>>>>> 430a684cd093bef2c5106fecff39ebc986cd2ac9
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
                     </div>
@@ -183,17 +179,6 @@
                     </div>
                 </a>
             </div>
-<<<<<<< HEAD
-
-=======
-            <div class="grid_3">
-                <a href="solutions/data.html" class="box-1 bg-box-4">
-                    <div class="maxheight inside">
-                    powerful, turnkey data solutions
-                    </div>
-                </a>
-            </div>
->>>>>>> 430a684cd093bef2c5106fecff39ebc986cd2ac9
         </div>
     </div>
 </header>
