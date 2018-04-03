@@ -27,6 +27,8 @@
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/x.y.z/moment.min.js"></script>
+    <script src="js/countdown.js"></script>
 
      
     <script>
@@ -150,28 +152,28 @@
         </div>
         <div class="row row-1">
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-1">
+                <a href="solutions/data.html" class="box-1 bg-box-1">
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-2">
+                <a href="solutions/grc.html" class="box-1 bg-box-2">
                     <div class="maxheight inside">
                     Governance, risk & compliance solutions
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-3">
+                <a href="solutions/financial-risk.html" class="box-1 bg-box-3">
                     <div class="maxheight inside">
                     financial risk management tools
                     </div>
                 </a>
             </div>
             <div class="grid_3">
-                <a href="#" class="box-1 bg-box-4">
+                <a href="solutions/data.html" class="box-1 bg-box-4">
                     <div class="maxheight inside">
                     powerful, turnkey data solutions
                     </div>
@@ -185,17 +187,20 @@
 <section class="content main-content">
     <div class="container_12">
         <div class="row row-1">
-            <div class="grid_12">
+            <div class="grid_12 count-down">
                 <a href="#" class="bg-5 clearfix">
-                    <div class="fleft">
-                        <div class="text-1">we will teach you how to implement</div>
+                    <div class="fleft count-down-header-body rail-padding">
+                        <div class="text-1">GDPR is almost here!</div>
                     </div>
-                    <div class="fleft">
-                        <div class="text-2">
-                            many different approaches to internet marketing
+                    <div class="fright text-center rail-padding">
+                        <div class="text-2 count-down-header-text">
+                            <h2>Get Compliant today!</h2>
+                            <span>
+                                <span class="count-down-time" id="days">00</span>d:<span class="count-down-time" id="hours">00</span>h:<span class="count-down-time" id="minutes">00</span>m:<span class="count-down-time" id="seconds">00</span>s
+                            </span>
                         </div>
                     </div>
-                    <div class="fright"><img class="wrapper" src="images/page-1_img-1.jpg" alt=""></div>
+                    
                 </a>
             </div>
         </div>
