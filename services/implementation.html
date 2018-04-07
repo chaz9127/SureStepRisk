@@ -19,12 +19,9 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
-     
-    <script>
-        $(window).load( function(){
-            $().UItoTop({ easingType: 'easeOutQuart' });
-        });
-    </script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="../js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
 
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -34,8 +31,8 @@
       </div>
     <![endif]-->
     <!--[if lt IE 9]>
-   		<script src="js/html5shiv.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
+        <script src="../jshtml5shiv.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
     <![endif]-->
      </head>
      <body>
@@ -60,14 +57,14 @@
                                 <li><a href="../solutions/cloud.html">Cloud</a></li>
                            </ul>
                         </li>
-                        <li><a class="current" href="#">Services</a>
+                        <li><a href="#">Services</a>
                             <ul>
                                 <li><a href="../services/manages-services.html">Manages Services</a></li>
                                 <li><a href="../services/implementation.html">Implementation</a></li>
                                 <li><a href="../services/training.html">Training</a></li>
                            </ul>
                         </li>
-                        <li><a href="../about-us/about-us.html">About us</a></li>
+                        <li><a class="current" href="../about-us/about-us.html">About us</a></li>
                         <li><a href="../contact-us/contact-us.html">Contact us</a></li>
                     </ul>
                 </nav>
@@ -81,26 +78,31 @@
 <section class="content">
     <div class="container_12">
         <div class="row p1">
-            <div class="grid_8">
+            <div class="grid_12">
                 <div class="bg-6 box-4">
                     <div class="inside">
-                        <h2>Main Content</h2>
+                        <h2>SureStep Implementation Services</h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
-                                
-                                <p><strong><!-- MAIN CONTENT TEXT GOES HERE --></strong></p>
+                        
+                                <p>GRC and analytics solutions don't have to be costly, complex or time consuming to install. SureStep has the knowledge and experience to deploy these solutions efficiently and comprehensively into on-premise systems or a hosted environment in the Cloud. SureStep Risk Management offers Implementation Services which can provide the following services and benefits:
+                            </p>
+                            <ul class="main-page-list">
+                                <li>Configuration and customization of the IBM OpenPages, IBM Cognos, Watson Analytics and Informatica platforms to meet your business requirements</li>
+                                <li>Business requirements development and solution blueprinting</li>
+                                <li>User and role definition</li>
+                                <li>Installation and management of on-premise or Cloud environments</li>
+                                <li>Spin-up and customization of your Cloud environment</li>
+                                <li>Development and deployment of automation functionality</li>
+                                <li>Development and deployment of Cognos reports and dashboards</li>
+                                <li>Development and deployment of mobile apps</li>
+                                <li>Content loading</li>
+                                <li>Ongoing support via SureStep Cloud Managed Services</li>
+                            </ul>
+                            <p class="rail-padding">When finished, your implementation will deliver a complete, end-to-end enterprise risk management and compliance platform to your users. Your organization will be able to immediately start realizing a return on its investment in GRC and analytics technology.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="grid_4">
-                <div class="bg-6 box-4">
-                    <div class="inside clearfix">
-                        <h2>Side Bar</h2>
-                        <p><strong><!-- SIDE BAR TEXT GOES HERE --></strong></p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
