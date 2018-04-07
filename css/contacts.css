@@ -73,7 +73,7 @@
 		box-sizing: border-box;
 	}
 	#contact-form label {
-		display: inline-block;
+		display: block;
 		position: relative;
 		min-height: 41px;
 	}
@@ -89,7 +89,9 @@
 		margin: 0 0 0 0;
 	}
 	#contact-form label input,
-	#contact-form label textarea {
+	#contact-form label textarea,
+	#contact-form label .select-style,
+	#contact-form label .select-style select {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
@@ -147,3 +149,28 @@
 
 }
 
+/* https://coderwall.com/p/w7npmq/fully-custom-select-box-simple-css-only*/
+#contact-form label .select-style {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-image: url(../images/arrow_down.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+#contact-form label .select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}

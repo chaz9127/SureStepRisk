@@ -33,6 +33,7 @@ $(function(){
   }
  }
 });
+
 var ua=navigator.userAgent.toLocaleLowerCase(),
  regV = /ipod|ipad|iphone/gi,
  result = ua.match(regV),
