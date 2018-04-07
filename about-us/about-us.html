@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/superfish.css">
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/touchTouch.css">
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery-migrate-1.1.1.js"></script>
@@ -19,11 +19,43 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="../js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+
+    <script src="../js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script src="../js/jquery.mousewheel.min.js"></script>
+    <script src="../js/jquery.touchSwipe.min.js"></script>
+
      
     <script>
-        $(window).load( function(){
-            $().UItoTop({ easingType: 'easeOutQuart' });
+    $(window).load( function(){
+        
+        $('#foo').carouFredSel({
+            auto: true,
+            responsive: true,
+            width: '100%',
+            prev: '#prev',
+            next: '#next',
+            scroll: 1,
+            items: {
+                height: 'auto',
+                width: 300,
+                visible: {
+                    min: 1,
+                    max: 3
+                }
+            },
+            mousewheel: false,
+            swipe: {
+                onMouse: true,
+                onTouch: true
+            }
         });
+        
+        $().UItoTop({ easingType: 'easeOutQuart' });
+        
+    });
     </script>
 
      <!--[if lt IE 8]>
@@ -34,7 +66,7 @@
       </div>
     <![endif]-->
     <!--[if lt IE 9]>
-   		<script src="js/html5shiv.js"></script>
+   		<script src="../jshtml5shiv.js"></script>
     	<link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
     <![endif]-->
      </head>
@@ -103,6 +135,74 @@
                             </div>
                         </div>
                     </div>
+                    <div class="inside overflow-auto">
+                        <h2>Our Success Stories</h2>
+                        <!-- start -->
+                        <div class="grid_10 list_carousel responsive clearfix">
+                            <ul id="foo" class="clearfix">
+                                <li>
+                                    <div class="box-1 bg-box-5 maxheight1">
+                                        <div class="inside clearfix">
+                                            <div class="w1">
+                                                <div class="box-3">
+                                                    <img class="slide-logo" src="../images/new/customerLogos/backgrounds/accenture.png" alt="accenture"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box-1 bg-box-5 maxheight1">
+                                        <div class="inside clearfix">
+                                            <div class="w1">
+                                                <div class="box-3">
+                                                    <img class="slide-logo" src="../images/new/customerLogos/backgrounds/accenture.png" alt="accenture"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box-1 bg-box-5 maxheight1">
+                                        <div class="inside clearfix">
+                                            <div class="w1">
+                                                <div class="box-3">
+                                                    <img class="slide-logo" src="../images/new/customerLogos/backgrounds/accenture.png" alt="accenture"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box-1 bg-box-5 maxheight1">
+                                        <div class="inside clearfix">
+                                            <div class="w1">
+                                                <div class="box-3">
+                                                    <img class="slide-logo" src="../images/new/customerLogos/backgrounds/accenture.png" alt="accenture"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box-1 bg-box-5 maxheight1">
+                                        <div class="inside clearfix">
+                                            <div class="w1">
+                                                <div class="box-3">
+                                                    <img class="slide-logo" src="../images/new/customerLogos/backgrounds/accenture.png" alt="accenture"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="arrows">               
+                                <a id="prev" class="prev" href="#"></a>
+                                <a id="next" class="next" href="#"></a>
+                            </div>
+                        </div>
+
+                        <!-- end -->
                 </div>
             </div>
         </div>
