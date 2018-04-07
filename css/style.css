@@ -122,7 +122,7 @@ p { padding-bottom: 18px;}
 .img-ind {float: left; margin-right: 19px; margin-top: 4px;}
 .img-ind img { width: 100%;}
 .wrapper img, .wrapper {width: 100%; position: relative;}
-.extra-wrap {overflow:hidden;}
+.extra-wrap {overflow:hidden; font-size: 18px; line-height: 24px;}
 .grid_inside { margin: 0 -10px;}
 .aligncenter {text-align: center !important;}
 .alignleft {text-align: left !important;}
