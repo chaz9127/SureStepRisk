@@ -210,7 +210,7 @@
                 <div class="box-1 bg-box-1">
                     <div class="inside">
                         <div><h2>Managed Services</h2></div>
-                        <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
+                        <div class="text-3">SureStep offers complete end-to-end service engagements. Every engagement is scoped for each client.</div>
                     </div>
                 </div>
             </a>
@@ -226,8 +226,8 @@
                 <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
-                        <div><h2>Customized Implementation</h2></div>
-                        <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
+                        <div><h2>Customized Implementations</h2></div>
+                        <div class="text-3">Every business is different. We make sure to take every client’s requirements and requests into account in every new engagement.</div>
                     </div>
                 </div>
             </a>
@@ -238,47 +238,14 @@
                             <div class="inside clearfix">
                                 <div class="w1">
                                     <div class="box-6">
-                                        <span class="text-4">july</span>
-                                        <span class="text-5">25</span>
+                                        <span class="text-4">May</span>
+                                        <span class="text-5">21</span>
                                     </div>
-                                    <div class="color-2"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna. </strong></div>
+                                    <div class="color-2"><strong>Informatica World, The Venetian, Las Vegas
+</strong></div>
                                 </div>
                                 <div class="w1">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
-                                    <a href="#" class="btn">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box-1 bg-box-5 maxheight1">
-                            <div class="inside clearfix">
-                                <div class="w1">
-                                    <div class="box-6">
-                                        <span class="text-4">september</span>
-                                        <span class="text-5">26</span>
-                                    </div>
-                                    <div class="color-2"><strong>Vitae praesentium itaque eum quis quia aut sequi placeat pariatur quas enim amet ducimus eius incidunt</strong></div>
-                                </div>
-                                <div class="w1">
-                                    Quidem repudiandae eos beatae sapiente architecto blanditiis minus maxime molestiae iste nobis facilis ab alias quis! Vitae quibusdam labore enim ad eveniet minus accusantium quos perspiciatis esse provident voluptatibus ipsam deleniti quas atque tempora 
-                                    <a href="#" class="btn">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box-1 bg-box-5 maxheight1">
-                            <div class="inside clearfix">
-                                <div class="w1">
-                                    <div class="box-6">
-                                        <span class="text-4">july</span>
-                                        <span class="text-5">27</span>
-                                    </div>
-                                    <div class="color-2"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna. </strong></div>
-                                </div>
-                                <div class="w1">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+                                    Join SureStep at Informatica World this year to talk about our custom Informatica governance offerings, customer success stories, and our continuing partnership with Informatica.
                                     <a href="#" class="btn">read more</a>
                                 </div>
                             </div>
@@ -297,7 +264,7 @@
                 <div class="box-1 bg-box-3">
                     <div class="inside">
                         <div><h2>Training</h2></div>
-                        <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
+                        <div class="text-3">Our training services give our customers the necessary expertise to be self sufficient</div>
                     </div>
                 </div>
             </a>
