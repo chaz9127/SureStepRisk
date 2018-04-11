@@ -344,7 +344,7 @@
                     <li><a href="#">Sign Up</a></li>
                     <li><a href="#">Forums</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Business Help</a></li>
+                    <li><a href="terms/privacy-policy.html">Privacy Policy</a></li>
                 </ul>    
             </div>
             <div class="grid_2 w2">
@@ -367,7 +367,7 @@
             </div>
             <div class="grid_3 f-logo">
                 <a href="index.html"><img src="images/logo-foot.png" alt="" /></a>
-                <div>&copy; 2013 | <a href="index-5.html">privacy Policy</a>
+                <div>&copy; 2018 | <a href="terms/privacy-policy.html">privacy Policy</a>
                     More Consulting Templates at <a rel="nofollow" href="http://www.templatemonster.com/category.php?category=127&type=1" target="_blank">TemplateMonster.com</a>
                 </div>
             </div>

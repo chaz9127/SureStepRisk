@@ -597,3 +597,16 @@ img.slide-logo {
 .rail-padding {
 	padding: 15px 0px;
 }
+
+.underline {
+	text-decoration: underline;
+}
+
+.default-ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+.default-ul li {
+	margin: 5px 0px;
+}
