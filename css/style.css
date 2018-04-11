@@ -574,11 +574,14 @@ footer .row > div { float: right;}
 	overflow: auto !important;
 }
 
-.padding-top
-
-
-.slide-logo {
+img.slide-logo {
 	width: 100%;
+	margin-bottom: 0px;
+}
+
+.logo-box {
+	border:1px #97adcc solid;
+	margin-bottom: 10px;
 }
 
 .main-page-list {
