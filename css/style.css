@@ -404,7 +404,7 @@ footer .row > div { float: right;}
 .f-logo {font-size: 10px; line-height: 16px; font-family: 'Open Sans', sans-serif; font-weight: 400;}
 .f-logo a { text-transform: uppercase; letter-spacing: 1px;}
 .f-logo a:hover { text-decoration: underline;}
-.logos { margin-top: 39px;}
+.logos { margin-top: 39px; width: 100%; }
 .logos a {float: left; display: block;  margin-bottom: 10px;}
 .logos a:first-child + a,
 .logos a:first-child + a + a + a,
