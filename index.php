@@ -273,7 +273,7 @@
                     <div class="grid_4 bg-box-5 box-1">
                         <div class="inside">
                             <h2>Partners</h2>
-                            <div><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis. </strong></div>
+                            <div><strong>SureStep is constantly reviewing the market leaders, their technology and investment roadmaps to ensure it provides only the best options to our customers. Our partners are the best in the world at what they do and we’re proud to work with them.</strong></div>
                             <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
