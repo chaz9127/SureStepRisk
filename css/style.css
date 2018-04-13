@@ -476,7 +476,9 @@ footer .row > div { float: right;}
 	}
 
 	#toTop:active, #toTop:focus {outline:none;}
-
+.show-on-small {
+	display: none;
+}
 
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
@@ -499,6 +501,7 @@ footer .row > div { float: right;}
 	.slider .camera_caption span + span {font-size: 15px; line-height: 19px;}
 
 	.box-3, .box-3 + .box-3 { width: 21% !important; margin-left: 2% !important; margin-right: 2% !important; margin-bottom: 25px;}
+	.row-1 .bg-5 > div:first-child + div { width: 100%;}
 }
 @media only screen and (max-width: 767px) {
 	.slider .camera_caption {display: none!important;}
@@ -521,6 +524,9 @@ footer .row > div { float: right;}
 
 	.box-3, .box-3 + .box-3 { width: 42% !important; margin-left: 4% !important; margin-right: 4% !important;}
 	.box-4 .inside { padding: 26px 18px 27px 18px;}
+	.count-down-header-text h2 { display: none; }
+	.count-down-header-body .text-1 { text-align: center; }
+	.row-1 .bg-5 { padding: 10px 12px; }
 }
 @media only screen and (max-width: 479px) {
 	.row-1 .text-2 {font-size: 16px;line-height: 25px;}
@@ -535,6 +541,7 @@ footer .row > div { float: right;}
 	.box-3, .box-3 + .box-3 { width: 100% !important; margin-left: 0 !important; margin-right: 0 !important;}
 	.logos a {margin-right: 51px;}
 	.block-6, .block-7 { padding: 26px 15px 31px 15px}
+	.show-on-small { display: inline; }
 }
 @media only screen and (max-width: 320px) {
 

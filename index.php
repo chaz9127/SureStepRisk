@@ -190,7 +190,7 @@
             <div class="grid_12 count-down">
                 <a href="#" class="bg-5 clearfix">
                     <div class="fleft count-down-header-body rail-padding">
-                        <div class="text-1">GDPR is almost here!</div>
+                        <div class="text-1">GDPR is almost here! Get Compliant Today!<span></span></div>
                     </div>
                     <div class="fright text-center rail-padding">
                         <div class="text-2 count-down-header-text">
