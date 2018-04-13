@@ -527,6 +527,7 @@ footer .row > div { float: right;}
 	.count-down-header-text h2 { display: none; }
 	.count-down-header-body .text-1 { text-align: center; }
 	.row-1 .bg-5 { padding: 10px 12px; }
+	.list_carousel .arrows { right: 55px; }
 }
 @media only screen and (max-width: 479px) {
 	.row-1 .text-2 {font-size: 16px;line-height: 25px;}
