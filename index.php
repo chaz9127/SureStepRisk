@@ -205,7 +205,7 @@
             </div>
         </div>
         <div class="row row-2 p2">
-            <a href="#" class="grid_5 box-8">
+            <a href="services/manages-services.html" class="grid_5 box-8">
                 <div class="bg-box-1 img-ind"><img src="images/page-1_img-2.png" alt="" ></div>
                 <div class="box-1 bg-box-1">
                     <div class="inside">
@@ -222,7 +222,7 @@
             </div>
         </div>
         <div class="row row-2 p2">
-            <a href="#" class="grid_5 box-8">
+            <a href="services/implementation.html" class="grid_5 box-8">
                 <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
@@ -259,7 +259,7 @@
             </div>
         </div>
         <div class="row row-2 p2 p1">
-            <a href="#" class="grid_5 box-8">
+            <a href="services/training.html" class="grid_5 box-8">
                 <div class="bg-box-3 img-ind"><img src="images/page-1_img-5.png" alt="" ></div>
                 <div class="box-1 bg-box-3">
                     <div class="inside">
@@ -273,7 +273,7 @@
                     <div class="grid_4 bg-box-5 box-1">
                         <div class="inside">
                             <h2>Partners</h2>
-                            <div><strong>SureStep is constantly reviewing the market leaders, their technology and investment roadmaps to ensure it provides only the best options to our customers. Our partners are the best in the world at what they do and we’re proud to work with them.</strong></div>
+                            <div>SureStep is constantly reviewing the market leaders, their technology and investment roadmaps to ensure it provides only the best options to our customers.</div>
                             <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
