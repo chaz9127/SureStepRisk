@@ -19,6 +19,43 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="../js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+
+    <script src="../js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script src="../js/jquery.mousewheel.min.js"></script>
+    <script src="../js/jquery.touchSwipe.min.js"></script>
+
+    <script>
+    $(window).load( function(){
+        
+        $('#foo').carouFredSel({
+            auto: true,
+            responsive: true,
+            width: '100%',
+            prev: '#prev',
+            next: '#next',
+            scroll: 1,
+            items: {
+                height: 'auto',
+                width: 300,
+                visible: {
+                    min: 1,
+                    max: 3
+                }
+            },
+            mousewheel: false,
+            swipe: {
+                onMouse: true,
+                onTouch: true
+            }
+        });
+        
+        $().UItoTop({ easingType: 'easeOutQuart' });
+        
+    });
+    </script>
      
     <script>
         $(window).load( function(){
@@ -81,24 +118,99 @@
 <section class="content">
     <div class="container_12">
         <div class="row p1">
-            <div class="grid_8">
+            <div class="grid_12">
                 <div class="bg-6 box-4">
                     <div class="inside">
                         <h2>Main Content</h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
                                 
-                                <p><strong><!-- MAIN CONTENT TEXT GOES HERE --></strong></p>
+                                <p>SureStep currently provides hosting and managed services on all industry leading cloud platforms and includes:
+                                </p>
+                                <ul class="default-ul">
+                                    <li>IBM Cloud</li>
+                                    <li>AWS</li>
+                                    <li>Microsoft Azure</li>
+                                    <li>Options IT</li>
+                                    <li>Google Cloud</li>
+                                </ul>
+                                <p>
+                                    SureStep offers fully managed offerings for:
+                                </p>
+                                <ul class="default-ul">
+                                    <li>Private Clouds</li>
+                                    <li>Hybrid Clouds</li>
+                                    <li>IBM Cloud Private</li>
+                                    <li>Cloud Disaster Recovery and High Availability</li>
+                                </ul>
+                                <p>
+                                    SureStep also supports custom security requirements as well as regulatory change management. We also support customizable plans for usage, virtualization requirements, and co-location.
+                                </p>
+                                <div class="grid_10 list_carousel responsive clearfix">
+                                    <ul id="foo" class="clearfix">
+                                        <li>
+                                            <div class="box-1 bg-box-5 maxheight1">
+                                                <div class="inside clearfix">
+                                                    <div class="w1">
+                                                        <div class="box-3 logo-box">
+                                                            <img class="slide-logo" src="../images/new/Partner_Platform_Logos/normalized/aws.png" alt="AWS"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box-1 bg-box-5 maxheight1">
+                                                <div class="inside clearfix">
+                                                    <div class="w1">
+                                                        <div class="box-3 logo-box">
+                                                            <img class="slide-logo" src="../images/new/Partner_Platform_Logos/normalized/google_cloud.png" alt="Google Cloud"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box-1 bg-box-5 maxheight1">
+                                                <div class="inside clearfix">
+                                                    <div class="w1">
+                                                        <div class="box-3 logo-box">
+                                                            <img class="slide-logo" src="../images/new/Partner_Platform_Logos/normalized/ibm_cloud.png" alt="IBM Cloud"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box-1 bg-box-5 maxheight1">
+                                                <div class="inside clearfix">
+                                                    <div class="w1">
+                                                        <div class="box-3 logo-box">
+                                                            <img class="slide-logo" src="../images/new/Partner_Platform_Logos/normalized/microsoft.png" alt="Microsoft"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box-1 bg-box-5 maxheight1">
+                                                <div class="inside clearfix">
+                                                    <div class="w1">
+                                                        <div class="box-3 logo-box">
+                                                            <img class="slide-logo" src="../images/new/Partner_Platform_Logos/normalized/options.png" alt="Options"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="arrows">               
+                                        <a id="prev" class="prev" href="#"></a>
+                                        <a id="next" class="next" href="#"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid_4">
-                <div class="bg-6 box-4">
-                    <div class="inside clearfix">
-                        <h2>Side Bar</h2>
-                        <p><strong><!-- SIDE BAR TEXT GOES HERE --></strong></p>
                     </div>
                 </div>
             </div>
