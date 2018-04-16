@@ -1,7 +1,7 @@
 <?php
-echo 'trace0'
- require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
+ require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+echo 'trace0'
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
