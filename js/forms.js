@@ -156,13 +156,13 @@
 						_.controlsFu()
 														
 						_.form
-							.bind('submit',function(){
-								if(_.validate)
-									_.submitFu()
-								else
-									_.form[0].submit()
-								return false
-							})
+							// .bind('submit',function(){
+							// 	if(_.validate)
+							// 		_.submitFu()
+							// 	else
+							// 		_.form[0].submit()
+							// 	return false
+							// })
 							.bind('reset',function(){
 								_.labels.removeClass(_.invalidCl)									
 								_.labels.each(function(){
