@@ -1,12 +1,13 @@
 <?php
+echo 'trace0'
  require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
- $mail = new PHPMailer;
- 
+$mail = new PHPMailer;
+echo 'trace1'
 $mail->isSMTP();
 $mail->isHTML(true);
 $mail->Host = 'smtp.gmail.com';
