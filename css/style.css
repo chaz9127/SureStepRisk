@@ -400,12 +400,13 @@ h2 + .list-1 {margin-top: -2px !important; margin-bottom: 0;}
 
 footer { margin-top: 2px; background: url(../images/bg-1.gif) 0 top repeat-x; padding-bottom: 25px;}
 footer .row > div { float: right;}
-.f-logo img { margin-top: 31px;}
+.f-logo img { margin-top: 31px; max-width: 100%; }
 .f-logo {font-size: 10px; line-height: 16px; font-family: 'Open Sans', sans-serif; font-weight: 400;}
 .f-logo a { text-transform: uppercase; letter-spacing: 1px;}
 .f-logo a:hover { text-decoration: underline;}
 .logos { margin-top: 39px; width: 100%; }
-.logos a {float: left; display: block;  margin-bottom: 10px;}
+.logos a {display: block;  margin-bottom: 10px;}
+.logos a img { width: 100%; }
 .logos a:first-child + a,
 .logos a:first-child + a + a + a,
 .logos a:first-child + a + a + a + a + a { float: right;}
@@ -488,7 +489,6 @@ footer .row > div { float: right;}
 	.row-1 .bg-5 > div:first-child {width: auto;}
 	.row-2 [class*="bg-box-"] .inside h2 { font-size: 12px; line-height: 14px;}
 	.block-1 img { width: 100%; padding-right: 0; padding-bottom: 22px;}
-	.logos a { float: left !important;}
 	.camera_wrap {height: 292px;}
 	.testimonials .extra-wrap { overflow: visible;}
 	.gallery { margin-top: 0;}
@@ -508,7 +508,6 @@ footer .row > div { float: right;}
 	.slider .camera_prev {right:55px; left: auto;}
 	.slider .camera_next {right:7px; left: auto;}
 	.row-2 .block-1 .inside {padding-bottom: 0;}
-	.logos a {margin-right: 30px;}
 	.grid_inside { margin-left: 0; margin-right: 0;}
 	.w2 {width: 30% !important; margin-left: 2%;}
 	.f-logo { text-align: center;}
@@ -540,7 +539,6 @@ footer .row > div { float: right;}
 	.w3 { width: 100%; margin: 0 15px;}
 	.block-3 img { margin-bottom: 15px; margin-right: 0; width: 100%;}
 	.box-3, .box-3 + .box-3 { width: 100% !important; margin-left: 0 !important; margin-right: 0 !important;}
-	.logos a {margin-right: 51px;}
 	.block-6, .block-7 { padding: 26px 15px 31px 15px}
 	.show-on-small { display: inline; }
 }
