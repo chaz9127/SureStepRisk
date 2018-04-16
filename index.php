@@ -192,12 +192,32 @@
                     <div class="fleft count-down-header-body rail-padding">
                         <div class="text-1">GDPR is almost here! Get Compliant Today!<span></span></div>
                     </div>
-                    <div class="fright text-center rail-padding">
+                    <div class="fright rail-padding">
+                        <h2 class="count-down-header">Get Compliant today!</h2>
                         <div class="text-2 count-down-header-text">
-                            <h2>Get Compliant today!</h2>
-                            <span>
+                            <div class="count-down-time">
+                                <span id="days">00</span>
+                                <br>
+                                <span class="count-down-time-denomination">Days</span>
+                            </div>
+                            <div class="count-down-time">
+                                <span id="hours">00</span>
+                                <br>
+                                <span class="count-down-time-denomination">Hours</span>
+                            </div>
+                            <div class="count-down-time">
+                                <span id="minutes">00</span>
+                                <br>
+                                <span class="count-down-time-denomination">Minutes</span>
+                            </div>
+                            <div class="count-down-time">
+                                <span id="seconds">00</span>
+                                <br>
+                                <span class="count-down-time-denomination">Seconds</span>
+                            </div>
+                            <!-- <span>
                                 <span class="count-down-time" id="days">00</span>d:<span class="count-down-time" id="hours">00</span>h:<span class="count-down-time" id="minutes">00</span>m:<span class="count-down-time" id="seconds">00</span>s
-                            </span>
+                            </span> -->
                         </div>
                     </div>
                     
