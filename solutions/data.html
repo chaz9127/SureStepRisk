@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/superfish.css">
+    <link rel="stylesheet" href="../css/animated-text.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/touchTouch.css">
@@ -19,12 +20,6 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
-     
-    <script>
-        $(window).load( function(){
-            $().UItoTop({ easingType: 'easeOutQuart' });
-        });
-    </script>
 
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -79,15 +74,36 @@
 
 <!--=======content================================-->
 <section class="content">
-    <div class="container_12">
+    <section class="full-heading cd-intro">
+        <div class="cd-intro-content bouncy">
+            <h2 class="full-heading-header">Services</h2>
+            <h3 class="full-heading-sub-header">Data</h3>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <div class="container_12 new-body">
         <div class="row p1">
-            <div class="grid_12">
-                <div class="bg-6 box-4">
+            <div class="grid_4">
+                <div class="box-4">
                     <div class="inside">
-                        <h2>Main Content</h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
-                                
+                                <div class="side-nav">
+                                    <a href="data.html" class="item current">Data</a>
+                                    <a href="grc.html" class="item">GRC</a>
+                                    <a href="financial-risk.html" class="item">Financial Risk</a>
+                                    <a href="cloud.html" class="item">Cloud</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_8">
+                <div class="box-4">
+                    <div class="inside">
+                        <div class="clearfix block-3">
+                            <div class="extra-wrap">
                                 <p>
                                     Every business is built on data and the corporate requirements surrounding it. Whether it be address data, reference data, or personally identifiable information, raw data can require a lot of time and expertise to derive value.
                                 </p>
