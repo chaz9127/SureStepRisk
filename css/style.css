@@ -345,6 +345,7 @@ a.box-1.bg-box-4:hover .inside *, .box-8:hover .bg-box-4 + div * { color: #ca664
 #foo li { cursor: default; float: left;}
 .list_carousel { position: relative;}
 .list_carousel .arrows { width: 62px; height: 31px; position: absolute; right: 0; bottom: 0px; z-index: 100;}
+.list_carousel .arrows.content { left: 0; }
 .list_carousel .arrows .prev,
 .list_carousel .arrows .next {display: block; float: left; opacity: 1; width: 31px; height: 31px; background: url(../images/arrows-2.png) no-repeat;}
 .list_carousel .arrows .prev {background-position: left 0; }
