@@ -10,7 +10,7 @@
 					notRequiredCl:'notRequired',
 					successCl:'success',
 					successShow:'4000',
-					mailHandlerURL:'../mailer.php',
+					mailHandlerURL:'/../mailer.php',
 					ownerEmail:'support@template-help.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
