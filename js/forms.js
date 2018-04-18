@@ -111,13 +111,9 @@
 									owner_email:_.ownerEmail,
 									stripHTML:_.stripHTML
 								},
-								success: function(){
-									alert('success');
-									_.showFu()
-								},
-								error: function(err) {
-									alert('fail');
-									console.log(err)
+								success: function(data){
+									console.log(data)
+									// _.showFu()
 								}
 							})			
 					},
