@@ -646,7 +646,6 @@ img.slide-logo {
 	text-align: center;
 	padding: 100px 0px;
     box-sizing: border-box;
-    background-image: url('../images/new/stock/servers.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -713,4 +712,28 @@ img.slide-logo {
 
 .side-nav .item.current:hover {
 	background-color: #4c6d96;
+}
+
+.data-body .full-heading{
+	background-image: url('../images/new/stock/analytics.jpg');
+}
+
+.cloud-body .full-heading{
+	background-image: url('../images/new/stock/servers.jpg');
+}
+
+.grc-body .full-heading{
+	background-image: url('../images/new/stock/desk.jpg');
+}
+
+.manage-body .full-heading{
+	background-image: url('../images/new/stock/manage.jpg');
+}
+
+.implementation-body .full-heading{
+	background-image: url('../images/new/stock/laptop.jpg');
+}
+
+.training-body .full-heading{
+	background-image: url('../images/new/stock/training.jpg');
 }
