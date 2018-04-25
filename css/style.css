@@ -66,6 +66,8 @@ p { padding-bottom: 18px;}
 .w1 { width: 40%; float: left;}
 .w1 + .w1 { margin-left: 4%; width: 56%;}
 
+.logo-box-container { width: 100%; }
+
 /*buttons*/
 
 .btn { 
@@ -504,8 +506,10 @@ footer .row > div { float: right;}
 	.slider .camera_caption {left: -191px; font-size: 16px; line-height: 20px; width: 191px;}
 	.slider .camera_caption span + span {font-size: 15px; line-height: 19px;}
 
-	.box-3, .box-3 + .box-3 { width: 21% !important; margin-left: 2% !important; margin-right: 2% !important; margin-bottom: 25px;}
+	.box-3, .box-3 + .box-3 { width: 21%; margin-left: 2% !important; margin-right: 2% !important; margin-bottom: 25px;}
 	.row-1 .bg-5 > div:first-child + div { width: 100%;}
+
+	.logo-box { width: 100%; }
 }
 @media only screen and (max-width: 767px) {
 	.slider .camera_caption {display: none!important;}

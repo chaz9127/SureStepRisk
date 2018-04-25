@@ -11,6 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/touchTouch.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery-migrate-1.1.1.js"></script>
     <script src="../js/jquery.easing.1.3.js"></script>
@@ -23,35 +25,11 @@
         <script src="../js/jquery.mobile.customized.min.js"></script>
     <!--<![endif]-->
 
-    <script src="../js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script src="../js/jquery.mousewheel.min.js"></script>
-    <script src="../js/jquery.touchSwipe.min.js"></script>
+    <script src="../js/slideshow.js"></script>
 
      
     <script>
     $(window).load( function(){
-        
-        $('#foo').carouFredSel({
-            auto: true,
-            responsive: true,
-            width: '100%',
-            prev: '#prev',
-            next: '#next',
-            scroll: 1,
-            items: {
-                height: 'auto',
-                width: 300,
-                visible: {
-                    min: 1,
-                    max: 3
-                }
-            },
-            mousewheel: false,
-            swipe: {
-                onMouse: true,
-                onTouch: true
-            }
-        });
         
         $().UItoTop({ easingType: 'easeOutQuart' });
         
@@ -135,162 +113,59 @@
                             </div>
                         </div>
                     </div>
-                    <div class="inside overflow-auto">
-                        <h2>Our Success Stories</h2>
-                        <!-- start -->
-                        <div class="grid_10 list_carousel responsive clearfix">
-                            <ul id="foo" class="clearfix">
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/accenture.png" alt="accenture"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/barclays.png" alt="barclays"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/carnival.png" alt="carnival"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/conduent.png" alt="conduent"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/geico.png" alt="geico"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/global_atlantic.png" alt="global_atlantic"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/heico.png" alt="heico"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/ing.png" alt="ing"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/mastercard.png" alt="mastercard"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/metlife.png" alt="metlife"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/money_key.png" alt="money_key"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/navig8.png" alt="navig8"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/societe_general.png" alt="societe_general"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="arrows">               
-                                <a id="prev" class="prev" href="#"></a>
-                                <a id="next" class="next" href="#"></a>
-                            </div>
-                        </div>
-
-                        <!-- end -->
+            </div>
+        </div>
+    </div>
+    <div class="container_12">
+        <div class="grid_12">
+             <div class="clearfix">
+                <h2>Our Success Stories</h2>
+                <div class="slide-show-container">
+                    <ul class="slide-show">
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/accenture.png" alt="accenture"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/barclays.png" alt="barclays"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/carnival.png" alt="carnival"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/conduent.png" alt="conduent"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/geico.png" alt="geico"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/global_atlantic.png" alt="global_atlantic"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/ing.png" alt="ing"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/mastercard.png" alt="mastercard"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/heico.png" alt="heico"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/metlife.png" alt="metlife"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/money_key.png" alt="money_key"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/navig8.png" alt="navig8"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/societe_general.png" alt="societe_general"/>
+                        </li>
+                    </ul>
+                    <div class="slide-show-arrows-container">
+                        <div class="slide-show-arrows left-arrow"><i class="fas fa-angle-left"></i></div>
+                        <div class="slide-show-arrows right-arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
                 </div>
             </div>
         </div>
