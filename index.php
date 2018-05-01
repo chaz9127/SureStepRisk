@@ -235,9 +235,9 @@
                 </div>
             </a>
             <div class="grid_7 block-1">
-                <img src="images/page-1_img-3.jpg" alt="" class="fleft">
-                <a href="#" class="box-1 bg-box-4">
-                    <div class="inside"><h2>Save time, save money, grow and succeed!</h2></div>
+                <img src="images/new/stock/single-view.jpg" alt="Learn about IBM Single View of Risk" class="fleft">
+                <a href="LINK X" class="box-1 bg-box-4">
+                    <div class="inside"><h2>Learn about IBM Single View of Risk</h2></div>
                 </a>
             </div>
         </div>
@@ -300,12 +300,9 @@
                     <div class="grid_3 box-1 bg-box-6">
                         <div class="inside">
                             <ul class="list-1">
-                                <li><a href="#">Implementaion</a></li>
-                                <li><a href="#">SEO Marketing</a></li>
-                                <li><a href="#">SEO</a></li>
-                                <li><a href="#">Sales and marketing</a></li>
-                                <li><a href="#">IT &amp; e-commerce</a></li>
-                                <li><a href="#">Exploit your ideas</a></li>
+                                <li><a href="/contact-us/contact-us.html">Data Audits</a></li>
+                                <li><a href="/contact-us/contact-us.html">Risk Assessments</a></li>
+                                <li><a href="/contact-us/contact-us.html">Demonstrations</a></li>
                             </ul>
                         </div>
                     </div>

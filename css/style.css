@@ -559,6 +559,10 @@ footer .row > div { float: right;}
 	text-align: center;
 }
 
+.fill-width {
+	width: 100%;
+}
+
 .count-down .count-down-header-body.rail-padding {
 	padding: 30px 0px !important;
 }
@@ -740,4 +744,8 @@ img.slide-logo {
 
 .training-body .full-heading{
 	background-image: url('../images/new/stock/training.jpg');
+}
+
+.financial-risk-body .full-heading{
+	background-image: url('../images/new/stock/financial-risk.jpg');
 }

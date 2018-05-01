@@ -16,7 +16,12 @@ $warrieEmail = 'wlucas@suresteprisk.com';
 switch ($departmentRaw) {
 	case 'governance':
 		echo 'governance';
-		$department = 'Governance, Risk, and Compliance';
+		$department = 'Governance';
+		array_push($sendTo, $mikeEmail, $warrieEmail);
+		break;
+	case 'risk':
+		echo 'risk';
+		$department = 'Risk';
 		array_push($sendTo, $mikeEmail, $warrieEmail);
 		break;
 	case 'managed-services':

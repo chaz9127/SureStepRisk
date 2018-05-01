@@ -31,7 +31,7 @@ $(function(){
 		moveRight();
 	});
 
-	function moveLeft() {
+	function moveRight() {
 		if (ableToClick) {
 			ableToClick = false;
 			var firstImage = $('.slide-show-item')[0];
@@ -60,7 +60,7 @@ $(function(){
 		}
 	}
 
-	function moveRight() {
+	function moveLeft() {
 		if (ableToClick) {
 			ableToClick = false;
 			var numImages = $('.slide-show-item').length;
