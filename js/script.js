@@ -1,4 +1,6 @@
 $(function(){
+  var goToContact = document.querySelector('.goToContact')
+  if (goToContact) goToContact.onclick = function() { window.location = "contact-us/contact-us.html"; }
 // IPad/IPhone
 	var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
 	ua = navigator.userAgent,

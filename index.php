@@ -27,7 +27,6 @@
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/x.y.z/moment.min.js"></script>
     <script src="js/countdown.js"></script>
 
      
@@ -297,12 +296,13 @@
                             <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
-                    <div class="grid_3 box-1 bg-box-6">
+                    <div class="grid_3 box-1 bg-box-6 clickable goToContact">
                         <div class="inside">
+                            <strong>Contact Us:</strong>
                             <ul class="list-1">
-                                <li><a href="/contact-us/contact-us.html">Data Audits</a></li>
-                                <li><a href="/contact-us/contact-us.html">Risk Assessments</a></li>
-                                <li><a href="/contact-us/contact-us.html">Demonstrations</a></li>
+                                <li><a href="#">Data Audits</a></li>
+                                <li><a href="#">Risk Assessments</a></li>
+                                <li><a href="#">Demonstrations</a></li>
                             </ul>
                         </div>
                     </div>

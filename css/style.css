@@ -722,6 +722,10 @@ img.slide-logo {
 	background-color: #4c6d96;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 .data-body .full-heading{
 	background-image: url('../images/new/stock/analytics.jpg');
 }

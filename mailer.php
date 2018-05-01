@@ -21,7 +21,7 @@ switch ($departmentRaw) {
 		break;
 	case 'risk':
 		echo 'risk';
-		$department = 'Risk';
+		$department = 'Risk and Compliance';
 		array_push($sendTo, $mikeEmail, $warrieEmail);
 		break;
 	case 'managed-services':
