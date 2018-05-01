@@ -235,7 +235,7 @@
             </a>
             <div class="grid_7 block-1">
                 <img src="images/new/stock/single-view.jpg" alt="Learn about IBM Single View of Risk" class="fleft">
-                <a href="LINK X" class="box-1 bg-box-4">
+                <a href="https://singleviewofriskinfo.weebly.com" class="box-1 bg-box-4">
                     <div class="inside"><h2>Learn about IBM Single View of Risk</h2></div>
                 </a>
             </div>
