@@ -58,7 +58,7 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 25;
 
 $mail->setFrom($email, $name);
-$mail->addAddress($sendTo)
+$mail->addAddress('warrentblucas@gmail.com')
 $mail->isHTML(true);
 
 $mail->Subject = "Website Contact From {$name}";
