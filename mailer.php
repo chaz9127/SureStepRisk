@@ -7,10 +7,8 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 $departmentRaw = $_POST['department'];
-$department = 'Unspecified';
 $sendTo = ['info@suresteprisk.com','wlucas@suresteprisk.com','mgibbs@suresteprisk.com'];
 
-/*
 switch ($departmentRaw) {
 	case 'governance':
 		echo 'governance';
@@ -45,19 +43,19 @@ switch ($departmentRaw) {
 	default:
 		echo $departmentRaw;
 }
-*/
 
-$mail = new PHPMailer(TRUE);
+$mail = new PHPMailer;
+$mail->SMTPDebug = 3;
 
 $mail->isSMTP();
-$mail->Host = 'smtp.office365.com';
+$mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'info@suresteprisk.com';
-$mail->Password = 'Superman123!';
+$mail->Username = 'surestepTester@gmail.com';
+$mail->Password = 'tester123!!';
 $mail->SMTPSecure = 'tls';
-$mail->Port = 25;
+$mail->Port = 587;
 
-$mail->setFrom($email, $name);
+$mail->setFrom($email);
 $mail->addAddress('warrentblucas@gmail.com')
 $mail->isHTML(true);
 
