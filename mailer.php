@@ -1,5 +1,5 @@
 <?php
- use PHPMailer\PHPMailer\PHPMailer
+
  require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 $name = $_POST['name'];
@@ -7,7 +7,11 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 $departmentRaw = $_POST['department'];
-$sendTo = ['info@suresteprisk.com','wlucas@suresteprisk.com','mgibbs@suresteprisk.com'];
+$department = 'Unspecified';
+$sendTo = ['info@suresteprisk.com'];
+
+$mikeEmail = 'mgibbs@suresteprisk.com';
+$warrieEmail = 'wlucas@suresteprisk.com';
 
 switch ($departmentRaw) {
 	case 'governance':
@@ -45,20 +49,20 @@ switch ($departmentRaw) {
 }
 
 $mail = new PHPMailer;
-$mail->SMTPDebug = 3;
 
 $mail->isSMTP();
+$mail->isHTML(true);
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'surestepTester@gmail.com';
-$mail->Password = 'tester123!!';
+$mail->Password = 'plz_dont_steal';
+$mail->Username = 'personal.portfolio.cj@gmail.com';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
-
-$mail->setFrom($email);
-$mail->addAddress('warrentblucas@gmail.com')
-$mail->isHTML(true);
-
+ 
+$mail->setFrom($email, $name);
+foreach ($sendTo as $emailAddress) {
+    $mail->addAddress($emailAddress);
+}
 $mail->Subject = "Website Contact From {$name}";
 $mail->Body    = "<strong>Who:</strong> {$name} <br><br> <strong>Phone:</strong> {$phone} <br><br> <strong>Department:</strong> {$department} <br><br> <strong>Message:</strong> {$message}";
  
@@ -68,4 +72,5 @@ if(!$mail->send()) {
 } else {
     echo 'Message has been sent';
 }
+
  ?>
