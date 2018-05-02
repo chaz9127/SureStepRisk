@@ -158,7 +158,7 @@
                 </a>
             </div>
             <div class="grid_3">
-                <a href="solutions/data.html" class="box-1 bg-box-1">
+                <a href="solutions/cloud.html" class="box-1 bg-box-1">
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
                     </div>
@@ -252,24 +252,32 @@
             </a>
             <div class="grid_7 list_carousel responsive clearfix">
                 <ul id="foo" class="clearfix">
+                    <!-- EVENT START -->
                     <li>
                         <div class="box-1 bg-box-5 maxheight1">
                             <div class="inside clearfix">
                                 <div class="w1">
                                     <div class="box-6">
+                                        <!-- date for event -->
                                         <span class="text-4">May</span>
                                         <span class="text-5">21</span>
                                     </div>
+                                    <!-- Title for event -->
                                     <div class="color-2"><strong>Informatica World, The Venetian, Las Vegas
 </strong></div>
                                 </div>
+                                <!-- body for event -->
                                 <div class="w1">
                                     Join SureStep at Informatica World this year to talk about our custom Informatica governance offerings, customer success stories, and our continuing partnership with Informatica.
-                                    <a href="#" class="btn">read more</a>
+                                    <a href="https://www.informaticaworld.com/" class="btn">read more</a>
                                 </div>
                             </div>
                         </div>
                     </li>
+                    <!-- 
+                        Event End. If you want a new event, just copy and paste between START and END,
+                        put it under this this comment and fill in the necessary copy
+                    -->
                 </ul>
                 <div class="arrows">               
                     <a id="prev" class="prev" href="#"></a>

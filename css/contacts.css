@@ -22,7 +22,7 @@
 		}
 		dl.address dt {
 			margin-bottom: 18px;
-			font-family: Trebuchet MS, serif;
+			font-family: Open Sans, serif;
 			font-size: 13px;
 			line-height: 18px;
 			color: #ca6642;
@@ -59,7 +59,7 @@
 		color: #97adcc;
 		border: none;
 		border-radius:0px;
-		font-family: Trebuchet MS, sans-serif;
+		font-family: Open Sans, sans-serif;
 		font-size: 13px;
 		line-height: 18px;
 		font-weight: bold;
@@ -102,7 +102,7 @@
 		position: relative;
 		float: left;
 		border-radius:0px;
-		font-family: Trebuchet MS, sans-serif;
+		font-family: Open Sans, sans-serif;
 		font-size: 13px;
 		line-height: 18px;
 		font-weight: bold;
