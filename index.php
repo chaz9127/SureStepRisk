@@ -225,7 +225,7 @@
         </div>
         <div class="row row-2 p2">
             <a href="services/manages-services.html" class="grid_5 box-8">
-                <div class="bg-box-1 img-ind"><img src="images/page-1_img-2.png" alt="" ></div>
+                <div class="bg-box-1 img-ind"><img src="images/new/front-page-managed-services.png" alt="" ></div>
                 <div class="box-1 bg-box-1">
                     <div class="inside">
                         <div><h2>Managed Services</h2></div>
@@ -242,7 +242,7 @@
         </div>
         <div class="row row-2 p2">
             <a href="services/implementation.html" class="grid_5 box-8">
-                <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
+                <div class="bg-box-2 img-ind"><img src="images/new/front-page-implementation.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
                         <div><h2>Customized Implementations</h2></div>
@@ -287,7 +287,7 @@
         </div>
         <div class="row row-2 p2 p1">
             <a href="services/training.html" class="grid_5 box-8">
-                <div class="bg-box-3 img-ind"><img src="images/page-1_img-5.png" alt="" ></div>
+                <div class="bg-box-3 img-ind"><img src="images/new/front-page-training.png" alt="" ></div>
                 <div class="box-1 bg-box-3">
                     <div class="inside">
                         <div><h2>Training</h2></div>
@@ -306,7 +306,7 @@
                     </div>
                     <div class="grid_3 box-1 bg-box-6 clickable goToContact">
                         <div class="inside">
-                            <strong>Contact Us:</strong>
+                            <strong class="front-page-contact">Contact Us:</strong>
                             <ul class="list-1">
                                 <li><a href="#">Data Audits</a></li>
                                 <li><a href="#">Risk Assessments</a></li>

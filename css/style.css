@@ -794,3 +794,12 @@ img.slide-logo {
 .about-us-body .full-heading{
 	background-image: url('../images/new/stock/about-us.jpg');
 }
+
+.partner-body .full-heading{
+	background-image: url('../images/new/stock/partner.jpg');
+}
+
+.front-page-contact {
+	font-size: 16px;
+    font-weight: 600;
+}
