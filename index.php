@@ -92,7 +92,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="index.php">
-                        <img src="images/new/logo_big.png" alt="maturity consulting company">
+                       <img src="images/new/logo_big-black.png" alt="SureStep Risk">
                     </a>
                 </h1>
                <nav>
@@ -189,7 +189,7 @@
             <div class="grid_12 count-down">
                 <a href="#" class="bg-5 clearfix">
                     <div class="fleft count-down-header-body rail-padding">
-                        <div class="text-1">GDPR is almost here! Get Compliant Today!<span></span></div>
+                        <div class="text-1">GDPR is almost here!<span></span></div>
                     </div>
                     <div class="fright rail-padding">
                         <h2 class="count-down-header">Get Compliant today!</h2>
@@ -329,7 +329,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="services/manages-services.html">Manages Services</a></li>
+                    <li><a href="services/manages-services.html">Managed Services</a></li>
                     <li><a href="services/implementation.html">Implementation</a></li>
                     <li><a href="services/training.html">Training</a></li>
                 </ul>    
