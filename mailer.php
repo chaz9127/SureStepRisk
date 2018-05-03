@@ -11,13 +11,16 @@ $department = 'Unspecified';
 $sendTo = ['info@suresteprisk.com'];
 
 $mikeEmail = 'mgibbs@suresteprisk.com';
+$mikeEmail = '';
 $warrieEmail = 'wlucas@suresteprisk.com';
+$warrieEmail = '';
 
 switch ($departmentRaw) {
 	case 'governance':
 		echo 'governance';
 		$department = 'Governance';
-		array_push($sendTo, $mikeEmail, $warrieEmail);
+		// array_push($sendTo, $mikeEmail, $warrieEmail);
+
 		break;
 	case 'risk':
 		echo 'risk';
@@ -58,8 +61,9 @@ $mail->Password = 'plz_dont_steal';
 $mail->Username = 'personal.portfolio.cj@gmail.com';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
- 
-$mail->setFrom($email, $name);
+ $mail->SMTPDebug  = 3;
+$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";};
+$mail->setFrom('info@suresteprisk.com', $name);
 foreach ($sendTo as $emailAddress) {
     $mail->addAddress($emailAddress);
 }
