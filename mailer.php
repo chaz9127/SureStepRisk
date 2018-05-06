@@ -8,8 +8,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 $departmentRaw = $_POST['department'];
 $department = 'Unspecified';
-$sendTo = ['Email' => 'info@suresteprisk.com'];
-$sendTest = ['Email' => 'info@suresteprisk.com'];
+$sendTo = [['Email' => 'info@suresteprisk.com']];
 
 $mikeEmail = ['Email' => 'mgibbs@suresteprisk.com'];
 $warrieEmail = ['Email' => 'wlucas@suresteprisk.com'];
@@ -51,7 +50,7 @@ $body = [
     'Subject' => "Web Contact from: {$name}",
     'Text-part' => $contentString,
     'Html-part' => $contentString,
-    'Recipients' => [$sendTest]
+    'Recipients' => $sendTo
 ];
 
 // var_dump($sendTo);

@@ -10,7 +10,7 @@
 					notRequiredCl:'notRequired',
 					successCl:'success',
 					successShow:'4000',
-					mailHandlerURL:'../mailer.php',
+					mailHandlerURL:'https://suresteprisk.herokuapp.com/mailer.php',
 					ownerEmail:'support@template-help.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
@@ -116,6 +116,7 @@
 								},
 								error: function(err) {
 									console.log("error:", err)
+									_.showFu()
 								}
 							})			
 					},
