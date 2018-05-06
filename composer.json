@@ -1,5 +1,6 @@
 {
   "require": {
-    "sendgrid/sendgrid": "~6.0"
+    "sendgrid/sendgrid": "~6.0",
+    "mailjet/mailjet-apiv3-php": "1.2.0"
   }
 }
