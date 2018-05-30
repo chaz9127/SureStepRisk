@@ -194,37 +194,12 @@
     <div class="container_12">
         <div class="row row-1">
             <div class="grid_12 count-down">
-                <a href="#" class="bg-5 clearfix">
+                <a href="contact-us/contact-us.html" class="bg-5 clearfix">
                     <div class="fleft count-down-header-body rail-padding">
-                        <div class="text-1">GDPR is almost here!<span></span></div>
+                        <div class="text-1">GDPR is here!<span></span></div>
                     </div>
                     <div class="fright rail-padding">
-                        <h2 class="count-down-header">Get Compliant today!</h2>
-                        <div class="text-2 count-down-header-text">
-                            <div class="count-down-time">
-                                <span id="days">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Days</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="hours">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Hours</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="minutes">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Minutes</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="seconds">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Seconds</span>
-                            </div>
-                            <!-- <span>
-                                <span class="count-down-time" id="days">00</span>d:<span class="count-down-time" id="hours">00</span>h:<span class="count-down-time" id="minutes">00</span>m:<span class="count-down-time" id="seconds">00</span>s
-                            </span> -->
-                        </div>
+                        <h2 class="count-down-header">Need help with a data audit or security assessment?</h2>
                     </div>
                     
                 </a>
@@ -266,17 +241,16 @@
                                 <div class="w1">
                                     <div class="box-6">
                                         <!-- date for event -->
-                                        <span class="text-4">May</span>
-                                        <span class="text-5">21</span>
+                                        <span class="text-4">June</span>
+                                        <span class="text-5">19</span>
                                     </div>
                                     <!-- Title for event -->
-                                    <div class="color-2"><strong>Informatica World, The Venetian, Las Vegas
-</strong></div>
+                                    <div class="color-2"><strong>IBM Summit for Regtech and OpenPages</strong></div>
                                 </div>
                                 <!-- body for event -->
                                 <div class="w1">
-                                    Join SureStep at Informatica World this year to talk about our custom Informatica governance offerings, customer success stories, and our continuing partnership with Informatica.
-                                    <a href="https://www.informaticaworld.com/" class="btn">read more</a>
+                                    Join SureStep at the IBM Summit for RegTech and OpenPages Customer Advisory Board. Meet our GRC and RegTech teammembers while learning about IBM's solutions.
+                                    <a href="https://www.ibm.com/communities/analytics/grc-blog/june-in-new-york-watson-financial-services-summit-for-regtech-and-openpages-customer-advisory-board/" class="btn">Register Here</a>
                                 </div>
                             </div>
                         </div>
