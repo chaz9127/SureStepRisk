@@ -29,7 +29,7 @@
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/countdown.js"></script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
