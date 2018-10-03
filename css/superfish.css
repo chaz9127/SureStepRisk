@@ -4,7 +4,7 @@ nav {
 	z-index: 11;
 }
 
-.sf-menu {margin-top: 94px;}
+.sf-menu {margin-top: 56px;}
 .sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
 .sf-menu li { 
 	position:relative;

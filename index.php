@@ -27,10 +27,16 @@
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/x.y.z/moment.min.js"></script>
     <script src="js/countdown.js"></script>
 
-     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118756923-1');
+    </script>
     <script>
     $(window).load( function(){
         jQuery('#camera_wrap_1').camera({
@@ -93,7 +99,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="index.php">
-                        <img src="images/new/logo_big.png" alt="maturity consulting company">
+                       <img src="images/new/logo_big-black.png" alt="SureStep Risk">
                     </a>
                 </h1>
                <nav>
@@ -159,7 +165,7 @@
                 </a>
             </div>
             <div class="grid_3">
-                <a href="solutions/data.html" class="box-1 bg-box-1">
+                <a href="solutions/cloud.html" class="box-1 bg-box-1">
                     <div class="maxheight inside">
                     Cloud Solutions &amp; Application management
                     </div>
@@ -188,37 +194,12 @@
     <div class="container_12">
         <div class="row row-1">
             <div class="grid_12 count-down">
-                <a href="#" class="bg-5 clearfix">
+                <a href="contact-us/contact-us.html" class="bg-5 clearfix">
                     <div class="fleft count-down-header-body rail-padding">
-                        <div class="text-1">GDPR is almost here! Get Compliant Today!<span></span></div>
+                        <div class="text-1">GDPR is here!<span></span></div>
                     </div>
                     <div class="fright rail-padding">
-                        <h2 class="count-down-header">Get Compliant today!</h2>
-                        <div class="text-2 count-down-header-text">
-                            <div class="count-down-time">
-                                <span id="days">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Days</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="hours">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Hours</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="minutes">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Minutes</span>
-                            </div>
-                            <div class="count-down-time">
-                                <span id="seconds">00</span>
-                                <br>
-                                <span class="count-down-time-denomination">Seconds</span>
-                            </div>
-                            <!-- <span>
-                                <span class="count-down-time" id="days">00</span>d:<span class="count-down-time" id="hours">00</span>h:<span class="count-down-time" id="minutes">00</span>m:<span class="count-down-time" id="seconds">00</span>s
-                            </span> -->
-                        </div>
+                        <h2 class="count-down-header">Need help with a data audit or security assessment?</h2>
                     </div>
                     
                 </a>
@@ -226,7 +207,7 @@
         </div>
         <div class="row row-2 p2">
             <a href="services/manages-services.html" class="grid_5 box-8">
-                <div class="bg-box-1 img-ind"><img src="images/page-1_img-2.png" alt="" ></div>
+                <div class="bg-box-1 img-ind"><img src="images/new/front-page-managed-services.png" alt="" ></div>
                 <div class="box-1 bg-box-1">
                     <div class="inside">
                         <div><h2>Managed Services</h2></div>
@@ -235,15 +216,15 @@
                 </div>
             </a>
             <div class="grid_7 block-1">
-                <img src="images/page-1_img-3.jpg" alt="" class="fleft">
-                <a href="#" class="box-1 bg-box-4">
-                    <div class="inside"><h2>Save time, save money, grow and succeed!</h2></div>
+                <img src="images/new/stock/single-view.jpg" alt="Learn about IBM Single View of Risk" class="fleft">
+                <a href="https://singleviewofriskinfo.weebly.com" class="box-1 bg-box-4">
+                    <div class="inside"><h2>Learn about IBM Single View of Risk</h2></div>
                 </a>
             </div>
         </div>
         <div class="row row-2 p2">
             <a href="services/implementation.html" class="grid_5 box-8">
-                <div class="bg-box-2 img-ind"><img src="images/page-1_img-4.png" alt="" ></div>
+                <div class="bg-box-2 img-ind"><img src="images/new/front-page-implementation.png" alt="" ></div>
                 <div class="box-1 bg-box-2">
                     <div class="inside">
                         <div><h2>Customized Implementations</h2></div>
@@ -253,24 +234,31 @@
             </a>
             <div class="grid_7 list_carousel responsive clearfix">
                 <ul id="foo" class="clearfix">
+                    <!-- EVENT START -->
                     <li>
                         <div class="box-1 bg-box-5 maxheight1">
                             <div class="inside clearfix">
                                 <div class="w1">
                                     <div class="box-6">
-                                        <span class="text-4">May</span>
-                                        <span class="text-5">21</span>
+                                        <!-- date for event -->
+                                        <span class="text-4">June</span>
+                                        <span class="text-5">19</span>
                                     </div>
-                                    <div class="color-2"><strong>Informatica World, The Venetian, Las Vegas
-</strong></div>
+                                    <!-- Title for event -->
+                                    <div class="color-2"><strong>IBM Summit for Regtech and OpenPages</strong></div>
                                 </div>
+                                <!-- body for event -->
                                 <div class="w1">
-                                    Join SureStep at Informatica World this year to talk about our custom Informatica governance offerings, customer success stories, and our continuing partnership with Informatica.
-                                    <a href="#" class="btn">read more</a>
+                                    Join SureStep at the IBM Summit for RegTech and OpenPages Customer Advisory Board. Meet our GRC and RegTech teammembers while learning about IBM's solutions.
+                                    <a href="https://www.ibm.com/communities/analytics/grc-blog/june-in-new-york-watson-financial-services-summit-for-regtech-and-openpages-customer-advisory-board/" class="btn">Register Here</a>
                                 </div>
                             </div>
                         </div>
                     </li>
+                    <!-- 
+                        Event End. If you want a new event, just copy and paste between START and END,
+                        put it under this this comment and fill in the necessary copy
+                    -->
                 </ul>
                 <div class="arrows">               
                     <a id="prev" class="prev" href="#"></a>
@@ -280,7 +268,7 @@
         </div>
         <div class="row row-2 p2 p1">
             <a href="services/training.html" class="grid_5 box-8">
-                <div class="bg-box-3 img-ind"><img src="images/page-1_img-5.png" alt="" ></div>
+                <div class="bg-box-3 img-ind"><img src="images/new/front-page-training.png" alt="" ></div>
                 <div class="box-1 bg-box-3">
                     <div class="inside">
                         <div><h2>Training</h2></div>
@@ -297,15 +285,13 @@
                             <a href="partners/partners.html" class="btn">see partners</a>
                         </div>
                     </div>
-                    <div class="grid_3 box-1 bg-box-6">
+                    <div class="grid_3 box-1 bg-box-6 clickable goToContact">
                         <div class="inside">
+                            <strong class="front-page-contact">Contact Us:</strong>
                             <ul class="list-1">
-                                <li><a href="#">Implementaion</a></li>
-                                <li><a href="#">SEO Marketing</a></li>
-                                <li><a href="#">SEO</a></li>
-                                <li><a href="#">Sales and marketing</a></li>
-                                <li><a href="#">IT &amp; e-commerce</a></li>
-                                <li><a href="#">Exploit your ideas</a></li>
+                                <li><a href="#">Data Audits</a></li>
+                                <li><a href="#">Risk Assessments</a></li>
+                                <li><a href="#">Demonstrations</a></li>
                             </ul>
                         </div>
                     </div>
@@ -324,7 +310,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="services/manages-services.html">Manages Services</a></li>
+                    <li><a href="services/manages-services.html">Managed Services</a></li>
                     <li><a href="services/implementation.html">Implementation</a></li>
                     <li><a href="services/training.html">Training</a></li>
                 </ul>    

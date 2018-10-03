@@ -1,38 +1,60 @@
 <?php
+require 'vendor/autoload.php';
+use \Mailjet\Resources;
+$mj = new \Mailjet\Client('beb156c65dff55e47538e0f95d559fdb', '0080d6e220dfe779a079afbfbcc34d97');
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$message = $_POST['message'];
+$departmentRaw = $_POST['department'];
+$department = 'Unspecified';
+$sendTo = [['Email' => 'info@suresteprisk.com']];
 
- require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
-echo 'HELLO?!'
-// $name = $_POST['name'];
-// $email = $_POST['email'];
-// $phone = $_POST['phone'];
-// $message = $_POST['message'];
-// $mail = new PHPMailer;
-// echo 'trace1'
-// $mail->isSMTP();
-// $mail->isHTML(true);
-// $mail->Host = 'smtp.gmail.com';
-// $mail->SMTPAuth = true;
-// $mail->Username = 'chasanid@gmail.com';
-// $mail->Password = getenv('gmail_password');
-// $mail->Username = 'personal.portfolio.cj@gmail.com';
-// $mail->SMTPSecure = 'tls';
-// $mail->Port = 587;
- 
-// $mail->setFrom('from@example.com', 'Mailer');
-// $mail->setFrom($email, $name);
-// $mail->addAddress('chasanid@gmail.com');
-// $mail->Subject = 'Here is the subject';
-// $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-// $mail->Subject = "Portfolio Contact - {$name}";
-// $mail->Body    = "<strong>Who:</strong> {$name} <br><br> <strong>Phone:</strong> {$phone} <br><br> <strong>Message:</strong> {$message}";
+$mikeEmail = ['Email' => 'mgibbs@suresteprisk.com'];
+$warrieEmail = ['Email' => 'wlucas@suresteprisk.com'];
 
-// // $mail->send()
- 
-// if(!$mail->send()) {
-//     echo 'Message could not be sent.';
-//     echo 'Mailer Error: ' . $mail->ErrorInfo;
-// } else {
-//     echo 'Message has been sent';
-// }
-// header('Location: /');
+switch ($departmentRaw) {
+	case 'governance':
+		$department = 'Governance';
+		array_push($sendTo, $mikeEmail, $warrieEmail);
+		break;
+	case 'risk':
+		$department = 'Risk and Compliance';
+		array_push($sendTo, $mikeEmail, $warrieEmail);
+		break;
+	case 'managed-services':
+		$department = 'Managed Services';
+		array_push($sendTo, $mikeEmail);
+		break;
+	case 'general':
+		$department = 'General';
+		array_push($sendTo, $mikeEmail, $warrieEmail);
+		break;
+	case 'hosting':
+		$department = 'Hosting';
+		array_push($sendTo, $mikeEmail, $warrieEmail);
+		break;
+	case 'data':
+		$department = 'Data';
+		array_push($sendTo, $warrieEmail);
+		break;
+	default:
+		
+}
+
+$contentString = "<strong>Who:</strong> {$name} <br><br> <strong>Email:</strong> {$email} <br><br> <strong>Phone:</strong> {$phone} <br><br> <strong>Department:</strong> {$department} <br><br> <strong>Message:</strong> {$message}";
+
+$body = [
+    'FromEmail' => "info@suresteprisk.com",
+    'FromName' => "Web Contact Form",
+    'Subject' => "Web Contact from: {$name}",
+    'Text-part' => $contentString,
+    'Html-part' => $contentString,
+    'Recipients' => $sendTo
+];
+
+// var_dump($sendTo);
+$response = $mj->post(Resources::$Email, ['body' => $body]);
+echo $response->success();
+$response->success() && var_dump($response->getData());
  ?>

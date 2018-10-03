@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/superfish.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/touchTouch.css">
     <link rel="stylesheet" href="../css/animated-text.css">
     <script src="../js/jquery.js"></script>
@@ -20,7 +21,14 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
-     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118756923-1');
+    </script>
     <script>
         $(window).load( function(){
             $().UItoTop({ easingType: 'easeOutQuart' });
@@ -47,7 +55,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="../index.php">
-                        <img src="../images/new/logo_big.png" alt="Sure Step Risk + Analytics">
+                        <img src="../images/new/logo_big-black.png" alt="Sure Step Risk + Analytics">
                     </a>
                 </h1>
                 <nav>
@@ -63,7 +71,7 @@
                         </li>
                         <li><a class="current" href="#">Services</a>
                             <ul>
-                                <li><a href="../services/manages-services.html">Manages Services</a></li>
+                                <li><a href="../services/manages-services.html">Managed Services</a></li>
                                 <li><a href="../services/implementation.html">Implementation</a></li>
                                 <li><a href="../services/training.html">Training</a></li>
                            </ul>
@@ -87,17 +95,37 @@
         </div>
         <div class="overlay"></div>
     </section>
-    <div class="container_12">
+    <div class="container_12 new-body">
         <div class="row p1">
             <div class="grid_4">
                 <div class="box-4">
                     <div class="inside">
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
-                                <div class="side-nav">
-                                    <a href="manages-services.html" class="item">Manage Services</a>
+                                <div class="side-nav panel">
+                                    <a href="manages-services.html" class="item">Managed Services</a>
                                     <a href="implementation.html" class="item">Implementation</a>
                                     <a href="training.html" class="item current">Training</a>
+                                </div>
+                                <div class="panel">
+                            <!--         <h2><strong>Associated Links</strong></h2>
+                                    <!-- To add a New download link
+                                    copy and paste the below -->
+                            <!--         <a href="#" class="btn-new panel-item full-width text-left">
+                                        <i class="fas fa-download personal-space"></i> 
+                                    ONE PAGER TITLE</a>
+                                    <!-- end copy and put below here -->
+                                </div>
+
+                                <div class="panel">
+                                    <h2><strong>Contact Us</strong></h2>
+                                    <p class="panel-item no-pad"><a href="mailto:info@suresteprisk.com" class="panel-link panel-item no-pad">info@suresteprisk.com</a></p>
+                                    <p class="panel-item">
+                                        New York, NY<br>
+                                        14 Wall St,<br> 
+                                        New York, NY 10005<br>
+                                        United States<br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -107,6 +135,7 @@
             <div class="grid_8">
                 <div class="box-4">
                     <div class="inside">
+					<h2><strong>Training</strong></h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
                                 <p>
@@ -131,7 +160,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="../services/manages-services.html">Manages Services</a></li>
+                    <li><a href="../services/manages-services.html">Managed Services</a></li>
                     <li><a href="../services/implementation.html">Implementation</a></li>
                     <li><a href="../services/training.html">Training</a></li>
                 </ul>    

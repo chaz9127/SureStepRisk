@@ -11,6 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/touchTouch.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery-migrate-1.1.1.js"></script>
     <script src="../js/jquery.easing.1.3.js"></script>
@@ -23,35 +25,18 @@
         <script src="../js/jquery.mobile.customized.min.js"></script>
     <!--<![endif]-->
 
-    <script src="../js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script src="../js/jquery.mousewheel.min.js"></script>
-    <script src="../js/jquery.touchSwipe.min.js"></script>
+    <script src="../js/slideshow.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-118756923-1');
+    </script>
      
     <script>
     $(window).load( function(){
-        
-        $('#foo').carouFredSel({
-            auto: true,
-            responsive: true,
-            width: '100%',
-            prev: '#prev',
-            next: '#next',
-            scroll: 1,
-            items: {
-                height: 'auto',
-                width: 300,
-                visible: {
-                    min: 1,
-                    max: 3
-                }
-            },
-            mousewheel: false,
-            swipe: {
-                onMouse: true,
-                onTouch: true
-            }
-        });
         
         $().UItoTop({ easingType: 'easeOutQuart' });
         
@@ -70,7 +55,7 @@
     	<link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
     <![endif]-->
      </head>
-     <body>
+     <body class="about-us-body">
 <!--==============================header=================================-->
 <header class="p3">
     <div class="container_12">
@@ -78,7 +63,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="../index.php">
-                        <img src="../images/new/logo_big.png" alt="Sure Step Risk + Analytics">
+                        <img src="../images/new/logo_big-black.png" alt="Sure Step Risk + Analytics">
                     </a>
                 </h1>
                 <nav>
@@ -94,7 +79,7 @@
                         </li>
                         <li><a href="#">Services</a>
                             <ul>
-                                <li><a href="../services/manages-services.html">Manages Services</a></li>
+                                <li><a href="../services/manages-services.html">Managed Services</a></li>
                                 <li><a href="../services/implementation.html">Implementation</a></li>
                                 <li><a href="../services/training.html">Training</a></li>
                            </ul>
@@ -111,186 +96,87 @@
 
 <!--=======content================================-->
 <section class="content">
-    <div class="container_12">
+    <section class="full-heading cd-intro">
+        <div class="cd-intro-content bouncy">
+            <h2 class="full-heading-header">About Us</h2>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <div class="container_12 new-body">
         <div class="row p1">
             <div class="grid_12">
-                <div class="bg-6 box-4">
+                <div class="box-4">
                     <div class="inside">
-                        <h2>About Us</h2>
+                        <h2><strong>About Us</strong></h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
                         
-                                <p><strong>SureStep started in 2007 as a development shop building online process management tools for the pharmaceutical industry. Shortly thereafter analytics expertise was added to the roster. Entering the wider world of GRC in 2009, SureStep partnered with IBM specializing in their  IBM OpenPages GRC Platform as well as Cognos BI. Today, SureStep is IBM’s largest global Risk Analytics partner with locations in Toronto, New York, London, Singapore and Sydney.</strong></p>
+                                <p>SureStep started in 2007 as a development shop building online process management tools for the pharmaceutical industry. Shortly thereafter analytics expertise was added to the roster. Entering the wider world of GRC in 2009, SureStep partnered with IBM specializing in their  IBM OpenPages GRC Platform as well as Cognos BI. Today, SureStep is IBM’s largest global Risk Analytics partner with locations in Toronto, New York, London, Singapore and Sydney.</p>
 
                             </div>
                         </div>
                     </div>
                     <div class="inside">
-                        <h2>Today’s SureStep</h2>
+                        <h2><strong>Today’s SureStep</strong></h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
-                        
-                                <p><strong>Building on our OpenPages and Cognos practice, SureStep has continued to specialize in GRC and its associated disciplines. SureStep clients demanded a data governance and data compliance, governance and integration offering which we provide with Informatica and IBM InfoSphere. We are also one of IBM’s largest hosting and managed services providers – running hundreds of client applications in environments such as IBM Cloud, AWS and Azure.</strong></p>
-                                
+                                <p>Building on our OpenPages and Cognos practice, SureStep has continued to specialize in GRC and its associated disciplines. SureStep clients demanded a data governance and data compliance, governance and integration offering which we provide with Informatica and IBM InfoSphere. We are also one of IBM’s largest hosting and managed services providers – running hundreds of client applications in environments such as IBM Cloud, AWS and Azure.</p>                               
                             </div>
                         </div>
                     </div>
-                    <div class="inside overflow-auto">
-                        <h2>Our Success Stories</h2>
-                        <!-- start -->
-                        <div class="grid_10 list_carousel responsive clearfix">
-                            <ul id="foo" class="clearfix">
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/accenture.png" alt="accenture"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/barclays.png" alt="barclays"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/carnival.png" alt="carnival"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/conduent.png" alt="conduent"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/geico.png" alt="geico"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/global_atlantic.png" alt="global_atlantic"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/heico.png" alt="heico"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/ing.png" alt="ing"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/mastercard.png" alt="mastercard"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/metlife.png" alt="metlife"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/money_key.png" alt="money_key"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/navig8.png" alt="navig8"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box-1 bg-box-5 maxheight1">
-                                        <div class="inside clearfix">
-                                            <div class="w1">
-                                                <div class="box-3 logo-box">
-                                                    <img class="slide-logo" src="../images/new/customerLogos/normalized/societe_general.png" alt="societe_general"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="arrows">               
-                                <a id="prev" class="prev" href="#"></a>
-                                <a id="next" class="next" href="#"></a>
-                            </div>
-                        </div>
-
-                        <!-- end -->
+            </div>
+        </div>
+    </div>
+    <div class="container_12">
+        <div class="grid_12">
+             <div class="clearfix">
+                <h2><strong>Our Success Stories</strong></h2>
+                <div class="slide-show-container">
+                    <ul class="slide-show">
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/accenture.png" alt="accenture"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/barclays.png" alt="barclays"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/carnival.png" alt="carnival"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/conduent.png" alt="conduent"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/geico.png" alt="geico"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/global_atlantic.png" alt="global_atlantic"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/ing.png" alt="ing"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/mastercard.png" alt="mastercard"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/heico.png" alt="heico"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/metlife.png" alt="metlife"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/money_key.png" alt="money_key"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/navig8.png" alt="navig8"/>
+                        </li>
+                        <li class="slide-show-item">
+                            <img class="slide-logo" src="../images/new/customerLogos/normalized/societe_general.png" alt="societe_general"/>
+                        </li>
+                    </ul>
+                    <div class="slide-show-arrows-container">
+                        <div class="slide-show-arrows left-arrow"><i class="fas fa-angle-left"></i></div>
+                        <div class="slide-show-arrows right-arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -307,7 +193,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="../services/manages-services.html">Manages Services</a></li>
+                    <li><a href="../services/manages-services.html">Managed Services</a></li>
                     <li><a href="../services/implementation.html">Implementation</a></li>
                     <li><a href="../services/training.html">Training</a></li>
                 </ul>    

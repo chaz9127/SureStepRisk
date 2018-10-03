@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <title>Contacts</title>
+    <title>Contact Us</title>
     <meta charset="utf-8">
     <meta name = "format-detection" content = "telephone=no" />
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
@@ -20,7 +20,14 @@
     <script src="../js/jquery.mobilemenu.js"></script>
     <script type="text/javascript" src="../js/forms.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
-     
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118756923-1');
+    </script>
     <script>
     $(window).load( function(){
         $('form').forms({
@@ -51,7 +58,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="../index.php">
-                        <img src="../images/new/logo_big.png" alt="Sure Step Risk + Analytics">
+                        <img src="../images/new/logo_big-black.png" alt="Sure Step Risk + Analytics">
                     </a>
                 </h1>
                 <nav>
@@ -67,7 +74,7 @@
                         </li>
                         <li><a href="#">Services</a>
                             <ul>
-                                <li><a href="../services/manages-services.html">Manages Services</a></li>
+                                <li><a href="../services/manages-services.html">Managed Services</a></li>
                                 <li><a href="../services/implementation.html">Implementation</a></li>
                                 <li><a href="../services/training.html">Training</a></li>
                            </ul>
@@ -92,9 +99,7 @@
                     <iframe id="map_canvas" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=New+York,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=New+York,+Kings,+New+York&amp;ll=40.7076233,-74.0127781&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
                     <dl class="address">
                         <dt>NEW YORK<br>14 Wall St, <br>New York, NY 10005<br>United States</dt>
-                        <dt>LONDON<br>No.1 Poultry <br>London, England EC2R 8JR<br>United Kingdom</dt>
                         <dt>CANADA<br>15 Allstate Parkway, Suite 600, <br>Markham, Ontario L3R 5B4<br>Canada</dt>
-                        <dt>SINGAPORE<br>161 Lavender Street<br>#02-11 Lavender Place <br>Singapore 338750</dt>
                         <dd><span>Email:</span><a href="mailto:info@suresteprisk.com">info@suresteprisk.com</a></dd>
                         <!-- <dd><span>Telephone:</span>+1 959 603 6035</dd>
                         <dd><span>FAX:</span>+1 504 889 9898</dd>
@@ -104,6 +109,8 @@
             </div>
             <div class="grid_7"
                 <div class="bg-6 block-7">
+					<p></p>
+					<p></p>
                     <h2 class="regular">get in touch</h2>
                     <form id="contact-form">
                         <div class="success">Contact form submitted!<br>
@@ -125,20 +132,21 @@
                                 <span class="error">*This is not a valid phone number.</span> 
                                 <span class="empty">*This field is required.</span>
                             </label>
-                            <label class="department notRequired">
+                            <label class="department">
                                <div class="select-style">
-                                    <select>
+                                    <select class="department" name="department">
                                         <!--
                                             always email - info@suresteprisk.com
                                             warren - wlucas@suresteprisk
                                             mike - mgibbs@suresteprisk.com
                                         -->
-                                         <option value="" disabled selected>Department:</option>
-                                        <option cc="mike, warren" value="governance">Governance, Risk, and Compliance</option>
-                                        <option cc="mike" value="managed-services">Managed Services</option>
-                                        <option cc="mike, warren" value="general">General</option>
-                                        <option cc="mike, warren" value="cloud">Hosting</option>
-                                        <option cc="warren" value="data">Data</option>
+                                        <option value="" disabled selected>Department:</option>
+                                        <option value="governance">Governance</option>
+                                        <option value="risk">Risk and Compliance</option>
+                                        <option value="managed-services">Managed Services</option>
+                                        <option value="general">General</option>
+                                        <option value="hosting">Hosting</option>
+                                        <option value="data">Data</option>
                                     </select>
                                 </div>
                                 <span class="error">*This is not a valid phone number.</span> 
@@ -151,6 +159,7 @@
                             </label>
                             <div class="form_buttons">
                                 <a class="btn" href="#" data-type="submit">send</a>
+								
                             </div>
                         </fieldset>
                     </form>
@@ -170,7 +179,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="../services/manages-services.html">Manages Services</a></li>
+                    <li><a href="../services/manages-services.html">Managed Services</a></li>
                     <li><a href="../services/implementation.html">Implementation</a></li>
                     <li><a href="../services/training.html">Training</a></li>
                 </ul>    

@@ -10,11 +10,11 @@
 					notRequiredCl:'notRequired',
 					successCl:'success',
 					successShow:'4000',
-					mailHandlerURL:'/mailer.php',
+					mailHandlerURL:'https://suresteprisk.herokuapp.com/mailer.php',
 					ownerEmail:'support@template-help.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
-					targets:'input,textarea',
+					targets:'input,textarea,select',
 					controls:'a[data-type=reset],a[data-type=submit]',
 					validate:true,
 					rx:{
@@ -91,7 +91,7 @@
 						})
 					},
 					getValFromLabel:function(label){
-						var val=$('input,textarea',label).val()
+						var val=$('input,textarea,select',label).val()
 							,defVal=label.data('defVal')								
 						return label.length?val==defVal?'nope':val:'nope'
 					}
@@ -105,15 +105,18 @@
 									name:_.getValFromLabel($('.name',_.form)),
 									email:_.getValFromLabel($('.email',_.form)),
 									phone:_.getValFromLabel($('.phone',_.form)),
-									fax:_.getValFromLabel($('.fax',_.form)),
-									state:_.getValFromLabel($('.state',_.form)),
+									department:_.getValFromLabel($('.department',_.form)),
 									message:_.getValFromLabel($('.message',_.form)),
 									owner_email:_.ownerEmail,
 									stripHTML:_.stripHTML
 								},
 								success: function(data){
-									console.log(data)
-									// _.showFu()
+									console.log("success", data)
+									_.showFu()
+								},
+								error: function(err) {
+									console.log("error:", err)
+									_.showFu()
 								}
 							})			
 					},

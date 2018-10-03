@@ -8,9 +8,11 @@
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/superfish.css">
+    <link rel="stylesheet" href="../css/animated-text.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/touchTouch.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery-migrate-1.1.1.js"></script>
     <script src="../js/jquery.easing.1.3.js"></script>
@@ -19,13 +21,14 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/jquery.mobilemenu.js"></script>
     <script src="../js/jquery.ui.totop.js"></script>
-     
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118756923-1&aip=1"></script>
     <script>
-        $(window).load( function(){
-            $().UItoTop({ easingType: 'easeOutQuart' });
-        });
-    </script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-118756923-1');
+    </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -34,11 +37,11 @@
       </div>
     <![endif]-->
     <!--[if lt IE 9]>
-   		<script src="js/html5shiv.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
+        <script src="js/html5shiv.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/ie.css">
     <![endif]-->
      </head>
-     <body>
+     <body class="financial-risk-body">
 <!--==============================header=================================-->
 <header class="p3">
     <div class="container_12">
@@ -46,7 +49,7 @@
             <div class="grid_12">
                 <h1>
                     <a href="../index.php">
-                        <img src="../images/new/logo_big.png" alt="Sure Step Risk + Analytics">
+                        <img src="../images/new/logo_big-black.png" alt="Sure Step Risk + Analytics">
                     </a>
                 </h1>
                 <nav>
@@ -62,7 +65,7 @@
                         </li>
                         <li><a href="#">Services</a>
                             <ul>
-                                <li><a href="../services/manages-services.html">Manages Services</a></li>
+                                <li><a href="../services/manages-services.html">Managed Services</a></li>
                                 <li><a href="../services/implementation.html">Implementation</a></li>
                                 <li><a href="../services/training.html">Training</a></li>
                            </ul>
@@ -79,26 +82,84 @@
 
 <!--=======content================================-->
 <section class="content">
-    <div class="container_12">
+    <section class="full-heading cd-intro">
+        <div class="cd-intro-content bouncy">
+            <h2 class="full-heading-header">Solutions</h2>
+            <h3 class="full-heading-sub-header">Financial Risk</h3>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <div class="container_12 new-body">
         <div class="row p1">
-            <div class="grid_8">
-                <div class="bg-6 box-4">
+            <div class="grid_4">
+                <div class="box-4">
                     <div class="inside">
-                        <h2>Main Content</h2>
                         <div class="clearfix block-3">
                             <div class="extra-wrap">
-                                
-                                <p><strong><!-- MAIN CONTENT TEXT GOES HERE --></strong></p>
+                                <div class="side-nav panel">
+                                    <a href="data.html" class="item">Data</a>
+                                    <a href="grc.html" class="item">GRC</a>
+                                    <a href="financial-risk.html" class="item current">Financial Risk</a>
+                                    <a href="cloud.html" class="item">Cloud</a>
+                                </div>
+                                <!-- To add a New download link
+                                    copy and paste the below -->
+                                <div class="panel">
+                                    <h2><strong>Associated Links</strong></h2>
+                                    <!-- To add a New download link
+                                    copy and paste the below -->
+                                    <a href="https://singleviewofriskinfo.weebly.com/" class="btn-new panel-item full-width text-left">
+                                        <i class="fas fa-external-link-alt personal-space"></i>
+                                    Single View of Risk</a>
+                                    <!-- end copy and put below here -->
+                                </div>
+
+                                <div class="panel">
+                                    <h2><strong>Contact Us</strong></h2>
+                                    <p class="panel-item no-pad"><a href="mailto:info@suresteprisk.com" class="panel-link panel-item no-pad">info@suresteprisk.com</a></p>
+                                    <p class="panel-item">
+                                        New York, NY<br>
+                                        14 Wall St,<br> 
+                                        New York, NY 10005<br>
+                                        United States<br>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="grid_4">
-                <div class="bg-6 box-4">
-                    <div class="inside clearfix">
-                        <h2>Side Bar</h2>
-                        <p><strong><!-- SIDE BAR TEXT GOES HERE --></strong></p>
+            <div class="grid_8">
+                <div class="box-4">
+                    <div class="inside">
+						<h2><strong>Financial Risk</strong></h2>
+                        <div class="clearfix block-3">
+                            <div class="extra-wrap">
+                                <p>
+                                    Financial Risk can be a big challenge for any sized organization 
+									due to its numerous forms and implications. Overtime risk management 
+									has become one of the core pillars of what distinguishes SureStep 
+									from any other provider; with decades of industry expertise and our 
+									close work with risk platform providers we have helped businesses of 
+									all sizes manage their corporate risk needs.
+                                </p>
+                                    <ul class="main-page-list">
+                                        <li>Enterprise-wide, credit risk aggregation and consolidation</li>
+                                        <li>Dynamic limit monitoring to create, approve, and monitor risk appetite limits</li>
+                                        <li>User-driven dashboarding and integrated analysis</li>
+										<li>Support for management and regulatory reporting</li>
+										<li>Internal risk rating calculation and approval</li>
+                                    </ul>
+								<p></p>
+								<p>	
+									Consolidating risk into a single view and having accurate and confident 
+									calculations for areas such as Probability of Default, Loss Given 
+									Default, Exposure at Default, and Expected Loss based on your own 
+									internal model’s is what makes our customers so successful.
+                                </p>
+                                <a class="btn-new" href="https://singleviewofriskinfo.weebly.com">How to Create a Single View of Risk</a> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,7 +177,7 @@
             </div>
             <div class="grid_2 w2">
                 <ul class="list-2">
-                    <li><a href="../services/manages-services.html">Manages Services</a></li>
+                    <li><a href="../services/manages-services.html">Managed Services</a></li>
                     <li><a href="../services/implementation.html">Implementation</a></li>
                     <li><a href="../services/training.html">Training</a></li>
                 </ul>    
@@ -134,7 +195,6 @@
                     <li><a href="../about-us/about-us.html">About Us</a></li>
                     <li><a href="../partners/partners.html">Partners</a>
                     <li><a href="../terms/privacy-policy.html">Privacy Policy</a>
-                    
                 </ul>                
             </div>
             <div class="grid_3 f-logo text-center">
