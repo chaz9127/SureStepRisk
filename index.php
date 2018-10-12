@@ -111,6 +111,7 @@
                                 <li><a href="solutions/grc.html">GRC</a></li>
                                 <li><a href="solutions/financial-risk.html">Financial Risk</a></li>
                                 <li><a href="solutions/cloud.html">Cloud</a></li>
+                                <li><a href="solutions/ibm-openpages.html">IBM OpenPages</a></li>
                            </ul>
                         </li>
                         <li><a href="#">Services</a>
@@ -118,6 +119,7 @@
                                 <li><a href="services/manages-services.html">Managed Services</a></li>
                                 <li><a href="services/implementation.html">Implementation</a></li>
                                 <li><a href="services/training.html">Training</a></li>
+                                <li><a href="services/cyber-security.html">Cyber Security</a></li>
                            </ul>
                         </li>
                         <li><a href="about-us/about-us.html">About us</a></li>
@@ -313,6 +315,7 @@
                     <li><a href="services/manages-services.html">Managed Services</a></li>
                     <li><a href="services/implementation.html">Implementation</a></li>
                     <li><a href="services/training.html">Training</a></li>
+                    <li><a href="services/cyber-security.html">Cyber Security</a></li>
                 </ul>    
             </div>
             <div class="grid_2 w2">
@@ -321,6 +324,7 @@
                     <li><a href="solutions/grc.html">GRC</a></li>
                     <li><a href="solutions/financial-risk.html">Financial Risk</a></li>
                     <li><a href="solutions/cloud.html">Cloud</a></li>
+                    <li><a href="solutions/ibm-openpages.html">IBM OpenPages</a></li>
                 </ul>    
             </div>
             <div class="grid_2 w2">

@@ -1,3 +1,4 @@
+window.allowFormSubmit = true;
 //forms
 ;(function($){
 	$.fn.forms=function(o){
@@ -111,11 +112,11 @@
 									stripHTML:_.stripHTML
 								},
 								success: function(data){
-									console.log("success", data)
+									window.allowFormSubmit = true;
 									_.showFu()
 								},
 								error: function(err) {
-									console.log("error:", err)
+									window.allowFormSubmit = true;
 									_.showFu()
 								}
 							})			
@@ -161,10 +162,14 @@
 														
 						_.form
 							.bind('submit',function(){
-								if(_.validate)
-									_.submitFu()
-								else
+								if(_.validate) {
+									if (window.allowFormSubmit) {
+										window.allowFormSubmit = false;
+										_.submitFu()
+									}
+								} else {
 									_.form[0].submit()
+								}
 								return false
 							})
 							.bind('reset',function(){
